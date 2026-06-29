@@ -314,23 +314,27 @@
         
             try {
                 let lessonsData = {};
-                
-                // 1. BEHEBT ORDNER-PROBLEM: Nutzt "Alexander" exakt so wie im JSON hinterlegt
                 const userFolder = currentUser; 
                 
                 for(let i = 1; i <= 20; i++) {
-                    // 2. BEHEBT DATEINAMEN-PROBLEM: Sucht nach "Latein Lexikon X.json" statt "lektionX.json"
-                    let lessonName = `Latein Lexikon ${i}`;
+                    // HIER WIRD ES DYNAMISCH: Erkennt automatisch die Sprache und baut den passenden Namen
+                    let lessonName = "";
+                    if (currentLanguage.toLowerCase() === "latein") {
+                        lessonName = `Latein Lexikon ${i}`;
+                    } else if (currentLanguage.toLowerCase() === "englisch") {
+                        lessonName = `Englisch Unit ${i}`; // Matcht exakt deine GitHub-Dateien!
+                    } else {
+                        lessonName = `lektion${i}`; // Fallback für andere Sprachen
+                    }
                     
-                    // 3. BEHEBT PFAD-PROBLEM: "/data/" wurde vor "users" hinzugefügt, damit der GitHub-Pfad stimmt
-                    // ÄNDERE DIESE ZEILE:
-                    let res = await fetch(`${BASE_URL}/users/${userFolder}/${currentLanguage.toLowerCase()}/${lessonName}.json`);                    
+                    // Holt die Datei ohne doppeltes "data/"
+                    let res = await fetch(`${BASE_URL}/users/${userFolder}/${currentLanguage.toLowerCase()}/${lessonName}.json`);
+                    
                     if(res.ok) {
-                        // Speichert es intern ab (wir behalten "Latein Lexikon 1" als Schlüssel)
                         lessonsData[lessonName] = await res.json();
                         console.log(`✅ Erfolgreich geladen: ${lessonName}.json`);
                     } else {
-                        console.log(`ℹ️ Nicht gefunden (oder leer): ${lessonName}.json`);
+                        console.log(`ℹ️ Nicht gefunden: ${lessonName}.json`);
                     }
                 }
         
