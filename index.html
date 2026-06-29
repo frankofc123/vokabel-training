@@ -526,13 +526,15 @@
         function triggerSync() { alert("Synchronisiert! Auf GitHub Pages werden gelernte Fortschritte direkt auf deinem iPad gesichert."); }
 
         // Einmalige, saubere Service Worker Registrierung für GitHub Pages
+        // Echte, relative Service Worker Registrierung für GitHub Pages
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/vokabel-training/sw.js')
+                navigator.serviceWorker.register('sw.js') // Ohne Schrägstrich am Anfang!
                     .then(reg => console.log('Service Worker erfolgreich registriert!', reg))
-                    .catch(err => console.log('Service Worker Registrierung fehlgeschlagen:', err));
+                    .catch(err => console.error('Service Worker Registrierung fehlgeschlagen:', err));
             });
         }
+        
     </script>
 </body>
 </html>
