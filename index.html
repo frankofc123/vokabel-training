@@ -26,7 +26,7 @@
         .leaf-gold { color: #FFD700; text-shadow: 0 0 10px #FFD700; }
         .leaf-grey { color: #D3D3D3; }
         
-        /* Navigation für Smartphones (Bottom Bar) */
+        /* Navigation für Smartphones  (Bottom Bar) */
         .mobile-nav { display: none; background-color: #212529; }
         .mobile-header-settings { display: none; }
 
@@ -539,7 +539,7 @@
         // Registrierung des Service Workers für echte Offline-Funktionalität
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js')
+                navigator.serviceWorker.register('/vokabel-training/sw.js')
                     .then(reg => console.log('Service Worker erfolgreich registriert!', reg))
                     .catch(err => console.log('Service Worker Registrierung fehlgeschlagen:', err));
             });
