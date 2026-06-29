@@ -93,7 +93,24 @@
                 box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
                 border: 1px solid rgba(0, 0, 0, 0.03) !important;
             }
-        }
+            }
+            #auth-zone {
+            -webkit-user-select: text !important;
+            user-select: text !important;
+            -webkit-touch-callout: text !important;
+            pointer-events: auto !important;
+            /* Verhindert, dass iOS die Seite "wegschiebt" oder blockiert */
+            touch-action: manipulation !important;
+            }
+        
+            #auth-zone input {
+                -webkit-user-select: text !important;
+                user-select: text !important;
+                /* WICHTIG: Die Schriftgröße auf mind. 16px zwingt iOS dazu, 
+                   keinen fehlerhaften Auto-Zoom zu machen */
+                font-size: 16px !important;
+                pointer-events: auto !important;
+            }
     </style>
     
 </head>
