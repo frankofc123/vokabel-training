@@ -248,11 +248,11 @@
         async function handleLoginAttempt() {
             const userInput = document.getElementById('username').value.trim();
             const pass = document.getElementById('password').value;
-
+        
             if (!userInput || !pass) return alert("Bitte Daten eingeben!");
             
-            // Macht den ersten Buchstaben groß und den Rest klein (z.B. alexander -> Alexander)
-            const userLower = userInput.charAt(0).toUpperCase() + userInput.slice(1).toLowerCase();
+            // Einfach komplett kleinschreiben für den sicheren Vergleich
+            const userLower = userInput.toLowerCase(); 
             
             // Offline-Check
             const storedUser = localStorage.getItem('last_user');
@@ -262,36 +262,37 @@
                 showApp();
                 return;
             }
-
+        
             if (!navigator.onLine) {
                 alert("🚫 Du bist offline und diese Logindaten sind nicht auf dem iPad gespeichert!");
                 return;
             }
-
+        
             try {
                 const response = await fetch(`${BASE_URL}/users_auth.json`);
                 if (!response.ok) throw new Error("Auth-Datei nicht gefunden");
                 const authDb = await response.json();
-
+        
                 // Case-Insensitive Suche in der JSON-Datenbank
                 let matchedKey = null;
                 for (let key in authDb) {
+                    // Jetzt vergleichen wir "klein" mit "klein" -> Das funktioniert immer!
                     if (key.toLowerCase() === userLower) {
                         matchedKey = key;
                         break;
                     }
                 }
-
+        
                 if (!matchedKey) {
                     alert("❌ Falsche Logindaten! (Nutzer nicht gefunden)");
                     return;
                 }
-
-                // WICHTIG: Hash-Berechnung nutzt den exakten Key aus der JSON ("Alexander" oder "alexander")
+        
+                // Hash-Berechnung des eingegebenen Passworts
                 const inputHash = await sha256(pass);
-
+        
                 if (authDb[matchedKey] === inputHash) {
-                    currentUser = matchedKey; // Behält die originale Schreibweise
+                    currentUser = matchedKey; // Behält die originale Schreibweise aus dem JSON
                     localStorage.setItem('last_user', currentUser);
                     localStorage.setItem('is_logged_in', 'true');
                     showApp();
