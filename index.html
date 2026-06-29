@@ -323,8 +323,8 @@
                     let lessonName = `Latein Lexikon ${i}`;
                     
                     // 3. BEHEBT PFAD-PROBLEM: "/data/" wurde vor "users" hinzugefügt, damit der GitHub-Pfad stimmt
-                    let res = await fetch(`${BASE_URL}/data/users/${userFolder}/${currentLanguage.toLowerCase()}/${lessonName}.json`);
-                    
+                    // ÄNDERE DIESE ZEILE:
+                    let res = await fetch(`${BASE_URL}/users/${userFolder}/${currentLanguage.toLowerCase()}/${lessonName}.json`);                    
                     if(res.ok) {
                         // Speichert es intern ab (wir behalten "Latein Lexikon 1" als Schlüssel)
                         lessonsData[lessonName] = await res.json();
