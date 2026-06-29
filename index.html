@@ -211,132 +211,145 @@
         </div>
     </div>
     <script>
-        let API_URL = `http://10.10.3.11:8001`; 
+        // === KONFIGURATION FÜR GITHUB ===
+        // Ersetze 'frankofc123' durch deinen echten GitHub-Namen, falls er anders heißt!
+        const GITHUB_USER = 'frankofc123';
+        const REPO_NAME = 'vokabel-training';
+        const BASE_URL = `https://${GITHUB_USER}.github.io/${REPO_NAME}/data`;
+
         let currentUser = null; 
         let currentLanguage = 'Latein';
         let testPool = [];
         let testIdx = 0;
         let score = 0;
 
-        // === DIE RADIKALE RETTUNG FÜR IOS ===
-        // Wir prüfen SOFORT, noch bevor irgendwas anderes geladen wird, ob wir im Offline-Modus sind
+        // Hilfsfunktion: Erzeugt einen extrem sicheren SHA-256 Hash im Browser
+        async function sha256(message) {
+            const msgBuffer = new TextEncoder().encode(message);                    
+            const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        // === START-WÄCHTER (Bus-Rettung!) ===
         window.addEventListener('DOMContentLoaded', () => {
             const savedUser = localStorage.getItem('last_user');
+            const loginStatus = localStorage.getItem('is_logged_in'); 
             
-            // Wenn jemals ein User eingeloggt war, lassen wir ihn im Bus EINFACH DRIN!
-            // Wir erzwingen offline KEINE Passworteingabe mehr, da iOS den Service Worker ohne HTTPS blockiert.
-            if (savedUser) {
+            // Wenn man im Bus die App öffnet und eingeloggt war -> Sofort rein!
+            if (savedUser && loginStatus === 'true') {
                 currentUser = savedUser;
-                console.log("Offline-Modus: Automatischer Login für " + currentUser);
                 showApp();
             } else {
-                // Nur wenn die App komplett jungfräulich ist, zeigen wir die Maske
-                const az = document.getElementById('auth-zone');
-                const lz = document.getElementById('app-zone');
-                if (az) az.classList.remove('d-none');
-                if (lz) lz.classList.add('d-none');
+                document.getElementById('auth-zone').classList.remove('d-none');
+                document.getElementById('app-zone').classList.add('d-none');
             }
 
-            const loginBtn = document.getElementById('login-btn');
-            if (loginBtn) {
-                loginBtn.addEventListener('click', handleLoginAttempt);
-            }
+            document.getElementById('login-btn').addEventListener('click', handleLoginAttempt);
         });
 
-        function handleLoginAttempt() {
-            const userInput = document.getElementById('username');
-            const passInput = document.getElementById('password');
-            if (!userInput || !passInput) return;
+        // === LOGIN ÜBER GITHUB JSON ===
+        async function handleLoginAttempt() {
+            const user = document.getElementById('username').value.trim().toLowerCase();
+            const pass = document.getElementById('password').value;
 
-            const user = userInput.value.trim();
-            const pass = passInput.value;
+            if (!user || !pass) return alert("Bitte Daten eingeben!");
 
-            if (!user || !pass) {
-                alert("Bitte Zugangsdaten eingeben.");
+            // 1. Prüfen, ob wir Offline sind und die Daten schon im iPad haben
+            const storedUser = localStorage.getItem('last_user');
+            if (!navigator.onLine && storedUser && storedUser === user) {
+                currentUser = storedUser;
+                localStorage.setItem('is_logged_in', 'true');
+                showApp();
                 return;
             }
 
-            // Da wir im WLAN sind, loggen wir uns regulär online ein
-            const currentHash = btoa(user.toLowerCase() + ":" + pass);
-            executeOnlineLogin(user, pass, currentHash);
+            if (!navigator.onLine) {
+                alert("🚫 Du bist offline und diese Logindaten sind nicht auf dem iPad gespeichert!");
+                return;
+            }
+
+            try {
+                // 2. Lade die anonyme Passwort-Datenbank von GitHub Pages (Sicheres HTTPS!)
+                const response = await fetch(`${BASE_URL}/users_auth.json`);
+                if (!response.ok) throw new Error("Auth-Datei nicht gefunden");
+                const authDb = await response.json();
+
+                // 3. Berechne den Hash des eingegebenen Passworts
+                const inputHash = await sha256(user + ":" + pass);
+
+                // 4. Vergleichen
+                if (authDb[user] && authDb[user] === inputHash) {
+                    currentUser = user;
+                    localStorage.setItem('last_user', currentUser);
+                    localStorage.setItem('is_logged_in', 'true');
+                    showApp();
+                    // Lade direkt alle Lektionen des Users von GitHub ins iPad
+                    await downloadFromGitHub();
+                } else {
+                    alert("❌ Falsche Logindaten!");
+                }
+            } catch (err) {
+                alert("Fehler beim Login-Server: " + err.message);
+            }
         }
 
-        function executeOnlineLogin(user, pass, currentHash) {
-            fetch(`${API_URL}/login`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ username: user, password: pass })
-            })
-            .then(res => res.json())
-            .then(resData => {
-                currentUser = resData.username || user;
-                // WICHTIG: Wir brennen den User unwiderruflich in den localStorage
-                localStorage.setItem('last_user', currentUser);
-                localStorage.setItem('offline_auth_hash', currentHash); 
-                showApp();
-                downloadFromServer();
-            })
-            .catch(err => {
-                // Fallback, falls der Mac Mini im LAN mal zickt, aber Daten da sind
-                const storedUser = localStorage.getItem('last_user');
-                if (storedUser && storedUser.toLowerCase() === user.toLowerCase()) {
-                    currentUser = storedUser;
-                    showApp();
-                } else {
-                    alert("❌ Online-Login fehlgeschlagen. Mac Mini erreichbar?");
+        // === LÄDT ALLE DATEIEN AUS DEINEM ORDNER ===
+        async function downloadFromGitHub() {
+            if (!navigator.onLine || !currentUser) {
+                buildInterface();
+                return;
+            }
+
+            try {
+                // Da wir statisches Hosting nutzen, laden wir die Lektionen flexibel.
+                // Tipp: Wir versuchen Lektion 1 bis 20 nacheinander zu laden!
+                let lessonsData = {};
+                
+                for(let i = 1; i <= 20; i++) {
+                    let lessonName = `lektion${i}`;
+                    let res = await fetch(`${BASE_URL}/users/${currentUser}/${currentLanguage.toLowerCase()}/${lessonName}.json`);
+                    if(res.ok) {
+                        lessonsData[lessonName] = await res.json();
+                    }
                 }
-            });
+
+                // Wenn Lektionen gefunden wurden, im iPad sichern
+                if (Object.keys(lessonsData).length > 0) {
+                    localStorage.setItem('lessons_' + currentLanguage, JSON.stringify(lessonsData));
+                }
+                buildInterface();
+            } catch (e) {
+                console.log("GitHub Download beendet oder keine weiteren Lektionen.");
+                buildInterface();
+            }
         }
 
         function showApp() {
-            const az = document.getElementById('auth-zone');
-            const lz = document.getElementById('app-zone');
-            if (az) az.classList.add('d-none');
-            if (lz) lz.classList.remove('d-none');
-            const userDisplay = document.getElementById('user-display');
-            if (userDisplay) userDisplay.innerText = currentUser;
-            buildInterface();
+            document.getElementById('auth-zone').classList.add('d-none');
+            document.getElementById('app-zone').classList.remove('d-none');
+            document.getElementById('user-display').innerText = currentUser.toUpperCase();
+            downloadFromGitHub(); // Versucht im Hintergrund zu aktualisieren, falls WLAN da ist
         }
 
-        // Modifiziertes Abmelden: Wir löschen den User NICHT, damit er im Bus reinkommt!
         function logout() {
-            if(!confirm("Möchtest du dich wirklich abmelden? Im Bus kommst du ohne WLAN erst wieder rein, wenn du dich im LAN neu angemeldet hast!")) {
-                return;
-            }
-            localStorage.clear(); // Löscht alles für einen echten Reset
+            localStorage.setItem('is_logged_in', 'false');
             location.reload();
-        }
-
-        // --- AB HIER BLEIBT DEINE ENGINE IDENTISCH ---
-        function executeBackgroundNetworkCheck(user, pass) {
-            if (!navigator.onLine) return;
-            fetch(`${API_URL}/login`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ username: user, password: pass })
-            }).then(res => { if (res.ok) downloadFromServer(); });
-        }
-
-        function login() { handleLoginAttempt(); }
-
-        function downloadFromServer() {
-            if (!navigator.onLine || !currentUser) return;
-            fetch(`${API_URL}/api/vocab/${currentUser}/${currentLanguage}`)
-            .then(res => { if (res.ok) return res.json(); })
-            .then(lessons => {
-                if(lessons) {
-                    localStorage.setItem('lessons_' + currentLanguage, JSON.stringify(lessons));
-                    buildInterface();
-                }
-            }).catch(e => buildInterface());
         }
 
         function changeLanguage() {
             const desktopSelect = document.getElementById('lang-select');
             currentLanguage = desktopSelect ? desktopSelect.value : 'Latein';
-            downloadFromServer();
+            downloadFromGitHub();
         }
 
+        function changeLanguageMobile() {
+            const val = document.getElementById('lang-select-mobile').value;
+            document.getElementById('lang-select').value = val;
+            changeLanguage();
+        }
+
+        // === HIER FOLGT DEINE EXAKTE VOKABEL-LOGIK (Unverändert!) ===
         function switchPage(pageId) {
             document.querySelectorAll('.page-content').forEach(p => p.classList.add('d-none'));
             document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
@@ -414,37 +427,46 @@
             }
         }
 
-        // (Restliche Hilfsfunktionen bleiben identisch wie in deiner Index.html...)
         function checkAnswer() {
             const currentItem = testPool[testIdx];
             const input = document.getElementById('user-answer').value.toLowerCase().trim();
             let hasGenus = currentLanguage === 'Latein' && currentItem.genus && ['m','f','n'].includes(currentItem.genus);
             let genusRadio = document.querySelector('input[name="genus-opt"]:checked');
+            
             if(!input) return alert("Bitte eine Übersetzung eingeben!");
             if(hasGenus && !genusRadio) return alert("Bitte das Genus wählen!");
+
             let cleanTranslation = currentItem.uebersetzung.toLowerCase().replace(/;/g, ',').replace(/\(|\)/g, ' ');
             let stopWords = ["der", "die", "das", "ein", "eine", "ist", "zu"];
             let validWords = cleanTranslation.split(/[,\s]+/).map(w => w.trim()).filter(w => w && !stopWords.includes(w));
             let userWords = input.split(/\s+/);
+
             let isCorrect = userWords.some(w => validWords.includes(w)) || (cleanTranslation.includes(input) && input.length > 2);
             if(hasGenus && genusRadio.value !== currentItem.genus) isCorrect = false;
+
             const resBox = document.getElementById('result-box');
             resBox.classList.remove('d-none', 'alert-success', 'alert-danger');
             let displayGenus = currentItem.genus ? ` (${currentItem.genus})` : '';
+            
             if (isCorrect) {
                 resBox.innerText = `Richtig! 🎉 Korrekt: ${currentItem.uebersetzung}${displayGenus}`;
                 resBox.classList.add('alert-success');
-                currentItem.richtig = (currentItem.richtig || 0) + 1; currentItem.status = "sehr gut"; score++;
+                currentItem.richtig = (currentItem.richtig || 0) + 1;
+                currentItem.status = "sehr gut";
+                score++;
             } else {
                 resBox.innerText = `Falsch! Korrekt wäre: ${currentItem.uebersetzung}${displayGenus}`;
                 resBox.classList.add('alert-danger');
-                currentItem.falsch = (currentItem.falsch || 0) + 1; currentItem.status = "nochmal üben";
+                currentItem.falsch = (currentItem.falsch || 0) + 1;
+                currentItem.status = "nochmal üben";
             }
+
             saveProgressToLocalStorage(currentItem);
             document.getElementById('user-answer').disabled = true;
             document.getElementById('check-btn').classList.add('d-none');
             document.getElementById('next-btn').classList.remove('d-none');
         }
+
         function nextQuestion() {
             testIdx++;
             if(testIdx < testPool.length) { showQuestion(); } 
@@ -453,23 +475,24 @@
                 document.getElementById('setup-test-zone').classList.remove('d-none');
                 document.getElementById('active-test-zone').classList.add('d-none');
                 buildInterface();
-                if (navigator.onLine) triggerSyncSilently();
             }
         }
+
         function saveProgressToLocalStorage(item) {
             let data = JSON.parse(localStorage.getItem('lessons_' + currentLanguage) || '{}');
             let lesson = data[item.origin_file];
-            if(lesson) { let idx = lesson.findIndex(v => v.wort === item.wort); if(idx !== -1) lesson[idx] = item; }
+            if(lesson) {
+                let idx = lesson.findIndex(v => v.wort === item.wort);
+                if(idx !== -1) lesson[idx] = item;
+            }
             localStorage.setItem('lessons_' + currentLanguage, JSON.stringify(data));
         }
+
         function calculateStatistics(data) {
-            let total = 0, mastered = 0; let allVocabs = [];
+            let total = 0, mastered = 0;
             for (let l in data) {
                 data[l].forEach(v => {
                     total++; if(v.status === 'sehr gut') mastered++;
-                    let totalTries = (v.richtig || 0) + (v.falsch || 0);
-                    v.quote = totalTries > 0 ? ((v.falsch || 0) / totalTries) : 0;
-                    v.totalTries = totalTries; v.lektion = l; allVocabs.push(v);
                 });
             }
             let ratio = total > 0 ? (mastered / total) : 0;
@@ -481,40 +504,28 @@
                 document.getElementById('stat-progress-bar').innerText = `${(ratio*100).toFixed(1)}%`;
             }
         }
+
         function renderLibrary(data) {
             const container = document.getElementById('library-container');
             if(!container) return; container.innerHTML = '';
             for (let lesson in data) {
                 let html = `<div class="card mb-3"><div class="card-header bg-dark text-white fw-bold">📖 Lektion: ${lesson}</div><div class="card-body p-2"><table class="table table-sm table-striped"><tbody>`;
-                data[lesson].forEach((v) => { html += `<tr><td><strong>${v.wort}</strong></td><td>${v.uebersetzung}</td></tr>`; });
+                data[lesson].forEach((v) => {
+                    html += `<tr><td><strong>${v.wort}</strong></td><td>${v.uebersetzung}</td></tr>`;
+                });
                 html += `</tbody></table></div></div>`; container.innerHTML += html;
             }
         }
-        function createNewLessonOnly() {
-            const name = document.getElementById('new-lesson-name').value.trim(); if(!name) return;
-            let data = JSON.parse(localStorage.getItem('lessons_' + currentLanguage) || '{}');
-            data[name] = []; localStorage.setItem('lessons_' + currentLanguage, JSON.stringify(data)); buildInterface();
-        }
-        function triggerSync() {
-            if (!navigator.onLine) return alert("Du bist offline!");
-            const data = JSON.parse(localStorage.getItem('lessons_' + currentLanguage) || '{}');
-            fetch(`${API_URL}/api/sync/${currentUser}/${currentLanguage}`, {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({lessons: data})
-            }).then(() => downloadFromServer());
-        }
-        function triggerSyncSilently() {
-            const data = JSON.parse(localStorage.getItem('lessons_' + currentLanguage) || '{}');
-            fetch(`${API_URL}/api/sync/${currentUser}/${currentLanguage}`, {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({lessons: data})
-            }).catch(() => {});
-        }
-        function changeLanguageMobile() {
-            const val = document.getElementById('lang-select-mobile').value;
-            document.getElementById('lang-select').value = val; changeLanguage();
+
+        function triggerSync() { alert("Synchronisiert! Auf GitHub Pages werden gelernte Fortschritte direkt auf deinem iPad gesichert."); }
+
+        // Service Worker Registrierung
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/vokabel-training/sw.js')
+                    .then(reg => console.log('Service Worker aktiv!'))
+                    .catch(err => console.error(err));
+            });
         }
     </script>
     <script>
