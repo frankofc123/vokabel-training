@@ -250,9 +250,10 @@
             const pass = document.getElementById('password').value;
 
             if (!userInput || !pass) return alert("Bitte Daten eingeben!");
-
-            const userLower = userInput.toLowerCase();
-
+            
+            // Macht den ersten Buchstaben groß und den Rest klein (z.B. alexander -> Alexander)
+            const userLower = userInput.charAt(0).toUpperCase() + userInput.slice(1).toLowerCase();
+            
             // Offline-Check
             const storedUser = localStorage.getItem('last_user');
             if (!navigator.onLine && storedUser && storedUser.toLowerCase() === userLower) {
