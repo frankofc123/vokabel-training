@@ -16,24 +16,34 @@
     <link rel="mask-icon" href="icons/monochrome.svg" color="#212529">
     <style>
         /* Grundlayout */
-        body { background-color: #f8f9fa; }
+        body { background-color: #f1f3f5 !important; }
         .sidebar { min-height: 100vh; background-color: #212529; color: white; padding: 20px; }
         .sidebar .nav-link { color: #adb5bd; cursor: pointer; }
         .sidebar .nav-link.active { color: white; font-weight: bold; background-color: #495057; border-radius: 5px; }
-        
+    
         /* Gamification */
         .wreath-container { text-align: center; font-size: 24px; padding: 15px; background: rgba(255, 215, 0, 0.05); border-radius: 15px; border: 1px solid rgba(255, 215, 0, 0.2); }
         .leaf-gold { color: #FFD700; text-shadow: 0 0 10px #FFD700; }
         .leaf-grey { color: #D3D3D3; }
-        
-        /* Navigation für Smartphones  (Bottom Bar) */
+    
+        /* iPhone / Mobile Fixes: Tastatur & Copy-Paste freischalten */
+        html, body {
+            -webkit-user-select: text !important;
+            user-select: text !important;
+            -webkit-touch-callout: default !important;
+        }
+        input, textarea {
+            -webkit-user-select: text !important;
+            user-select: text !important;
+            pointer-events: auto !important;
+            -webkit-touch-callout: text !important;
+            font-size: 16px !important; /* Verhindert iOS Zoom-Bug */
+        }
+    
+        /* Mobile Navigation (Bottom Bar) */
         .mobile-nav { display: none; background-color: #212529; }
         .mobile-header-settings { display: none; }
-
-        /* Vergibt einen weicheren, modernen Hintergrund für die gesamte App */
-        body { background-color: #f1f3f5 !important; }
-
-        /* RESPONSIVE DESIGN FOR IPHONE */
+    
         @media (max-width: 767.98px) {
             .sidebar { display: none !important; } 
             
@@ -75,11 +85,9 @@
             
             .mobile-nav .nav-link.active { color: white; font-weight: bold; background-color: #343a40; }
             
-            /* Sorgt für den perfekten, sauberen Abstand */
             main { padding-top: 0px !important; padding-bottom: 80px !important; } 
             .page-content { padding-top: 100px !important; padding-left: 10px; padding-right: 10px; }
             
-            /* Lässt die weiße Lern-Karte modern und edel aussehen */
             #setup-test-zone, #active-test-zone { 
                 border-radius: 16px !important; 
                 box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
@@ -87,6 +95,7 @@
             }
         }
     </style>
+    
 </head>
 <body>
     <div id="auth-zone" class="container py-5" style="max-width: 450px;">
