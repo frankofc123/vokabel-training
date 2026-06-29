@@ -177,18 +177,40 @@
                 </div>
 
                 <div id="page-statistik" class="page-content d-none">
-                    <h2 class="h4 mb-3">📊 Dein Fortschritt</h2>
-                    <div class="row g-2 my-2">
-                        <div class="col-6 col-md-4"><div class="card p-3 border-0 shadow-sm text-center"><h6>Gesamt</h6><h3 id="stat-total" class="fs-4 text-dark fw-bold">0</h3></div></div>
-                        <div class="col-6 col-md-4"><div class="card p-3 border-0 shadow-sm text-center text-success"><h6>Meister ✅</h6><h3 id="stat-mastered" class="fs-4 fw-bold">0</h3></div></div>
-                        <div class="col-12 col-md-4"><div class="card p-3 border-0 shadow-sm text-center text-danger"><h6>Zu erobern ⚔️</h6><h3 id="stat-remaining" class="fs-4 fw-bold">0</h3></div></div>
+                    <h2>📊 Dein Fortschritt</h2>
+                    <div class="row g-3 my-3">
+                        <div class="col-md-4"><div class="card p-3 bg-white shadow-sm"><h6>Gesamt-Imperium</h6><h3 id="stat-total">0 Wörter</h3></div></div>
+                        <div class="col-md-4"><div class="card p-3 bg-white shadow-sm text-success"><h6>Meister-Status ✅</h6><h3 id="stat-mastered">0</h3></div></div>
+                        <div class="col-md-4"><div class="card p-3 bg-white shadow-sm text-danger"><h6>Noch zu erobern ⚔️</h6><h3 id="stat-remaining">0</h3></div></div>
                     </div>
-                    <h5 class="mt-4 fs-6 fw-bold">Dein Weg zum Imperator</h5>
-                    <div class="progress mb-4 shadow-sm" style="height: 22px;"><div id="stat-progress-bar" class="progress-bar bg-success fw-bold" style="width: 0%">0%</div></div>
-                    <div id="wreath-output" class="mb-4"></div>
-                    <div class="row">
-                        <div class="col-md-6 mb-3"><h5>🏹 Die Angstgegner</h5><div id="angstgegner-list" class="list-group shadow-sm" style="font-size:13px;"></div></div>
-                        <div class="col-md-6 mb-3"><h5>🏆 Die Helden</h5><div id="helden-list" class="list-group shadow-sm" style="font-size:13px;"></div></div>
+                
+                    <h5 class="mt-4">Dein Weg zum Imperator</h5>
+                    <div class="progress mb-4" style="height: 25px;">
+                        <div id="stat-progress-bar" class="progress-bar bg-success" style="width: 0%">0%</div>
+                    </div>
+                
+                    <div class="alert alert-success d-none" id="oracle-box" role="alert">
+                        ✨ <strong>Das geheime Orakel:</strong> <span id="oracle-text">Beeindruckend! Deine Bibliothek leuchtet schon fast golden.</span>
+                    </div>
+                
+                    <h5 class="mt-4">Dein Siegeskranz</h5>
+                    <div class="card p-3 bg-dark text-white text-center shadow-sm mb-4">
+                        <small class="text-muted" id="wreath-percentage">Corona Victoriae (0%)</small>
+                        <div id="wreath-output" class="fs-2 my-2" style="letter-spacing: 5px;"></div>
+                    </div>
+                
+                    <h4 class="mt-5">📊 Performance-Analyse</h4>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <h5>🏹 Die wahren Angstgegner</h5>
+                            <p class="small text-muted">Höchste Fehlerquote (mind. 3-mal abgefragt)</p>
+                            <div id="angstgegner-list" class="list-group"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>🏆 Die unbestrittenen Helden</h5>
+                            <p class="small text-muted">Beste Erfolgsquote</p>
+                            <div id="helden-list" class="list-group"></div>
+                        </div>
                     </div>
                 </div>
 
