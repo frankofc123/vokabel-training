@@ -534,18 +534,108 @@
 
         function calculateStatistics(data) {
             let total = 0, mastered = 0;
+            let wrongData = [];
+            let heroData = [];
+        
+            // Gehe durch alle Lektionen und alle Vokabeln
             for (let l in data) {
                 data[l].forEach(v => {
-                    total++; if(v.status === 'sehr gut') mastered++;
+                    total++; 
+                    
+                    // Ermittle den Status
+                    if(v.status === 'sehr gut') mastered++;
+        
+                    // Extrahiere Fehler- und Erfolgszähler (unterstützt korrektur/fehler/wrong/correct)
+                    let wrongCount = v.wrong || v.fehler || 0;
+                    let correctCount = v.correct || v.richtig || 0;
+                    let totalAttempts = wrongCount + correctCount;
+        
+                    if (totalAttempts > 0) {
+                        let successRate = correctCount / totalAttempts;
+                        let failureRate = wrongCount / totalAttempts;
+        
+                        // 🏹 Angstgegner: Mindestens 2- oder 3-mal abgefragt und hohe Fehlerquote
+                        if (totalAttempts >= 2 && failureRate >= 0.5) {
+                            wrongData.push({
+                                rate: failureRate,
+                                text: `<strong class="text-danger">${v.latein || v.englisch || 'Wort'}</strong> — ${Math.round(failureRate * 100)}% Fehler <span class="badge bg-danger ms-1">${wrongCount}❌ von ${totalAttempts}</span>`
+                            });
+                        }
+        
+                        // 🏆 Helden: Hohe Erfolgsquote
+                        if (successRate >= 0.7) {
+                            heroData.push({
+                                rate: successRate,
+                                text: `<strong class="text-success">${v.latein || v.englisch || 'Wort'}</strong> — ${Math.round(successRate * 100)}% Erfolg <span class="badge bg-success ms-1">${correctCount}✅ von ${totalAttempts}</span>`
+                            });
+                        }
+                    }
                 });
             }
+        
             let ratio = total > 0 ? (mastered / total) : 0;
+            let percent = (ratio * 100).toFixed(1);
+        
+            // 1. Standard-Karten befüllen
             if(document.getElementById('stat-total')) document.getElementById('stat-total').innerText = `${total} Wörter`;
             if(document.getElementById('stat-mastered')) document.getElementById('stat-mastered').innerText = mastered;
             if(document.getElementById('stat-remaining')) document.getElementById('stat-remaining').innerText = total - mastered;
+            
+            // 2. Fortschrittsbalken aktualisieren
             if(document.getElementById('stat-progress-bar')) {
-                document.getElementById('stat-progress-bar').style.width = `${ratio*100}%`;
-                document.getElementById('stat-progress-bar').innerText = `${(ratio*100).toFixed(1)}%`;
+                document.getElementById('stat-progress-bar').style.width = `${percent}%`;
+                document.getElementById('stat-progress-bar').innerText = `${percent}%`;
+            }
+        
+            // 3. 🌿 LORBEERKRANZ (Corona Victoriae) GENERIEREN 🌿
+            if(document.getElementById('wreath-output')) {
+                const wreathOutput = document.getElementById('wreath-output');
+                if(document.getElementById('wreath-percentage')) {
+                    document.getElementById('wreath-percentage').innerText = `Corona Victoriae (${percent}%)`;
+                }
+                
+                // Alle 5% Baufortschritt ein Lorbeerblatt (max. 20 Blätter)
+                let leafCount = Math.floor(parseFloat(percent) / 5);
+                wreathOutput.innerHTML = "🌿".repeat(leafCount) || "⚔️ Starte deine Eroberung";
+            }
+        
+            // 4. ✨ DAS GEHEIME ORAKEL (Motivationsbox) ✨
+            if(document.getElementById('oracle-box') && document.getElementById('oracle-text')) {
+                const oracleBox = document.getElementById('oracle-box');
+                const oracleText = document.getElementById('oracle-text');
+                
+                if (parseFloat(percent) > 0) {
+                    oracleBox.classList.remove('d-none');
+                    if (parseFloat(percent) < 30) {
+                        oracleText.innerText = "Ein solider Anfang! Rom wurde auch nicht an einem Tag erbaut.";
+                    } else if (parseFloat(percent) < 75) {
+                        oracleText.innerText = "Beeindruckend! Deine Bibliothek leuchtet schon fast golden. Kannst du die 518 knacken?";
+                    } else {
+                        oracleText.innerText = "Phänomenal! Du stehst kurz vor dem Imperatoren-Status. Die Götter schauen voller Stolz auf dich!";
+                    }
+                }
+            }
+        
+            // 5. 🏹 LISTE DER ANGSTGEGNER RENDERN
+            if(document.getElementById('angstgegner-list')) {
+                const angstList = document.getElementById('angstgegner-list');
+                // Sortieren: Schlimmste Fehlerquote zuerst
+                wrongData.sort((a, b) => b.rate - a.rate);
+                
+                angstList.innerHTML = wrongData.slice(0, 5).map(item => 
+                    `<div class="list-group-item list-group-item-danger d-flex justify-content-between align-items-center small p-2" style="background-color: rgba(220, 53, 69, 0.1); border-left: 4px solid #dc3545;">${item.text}</div>`
+                ).join('') || '<div class="text-muted small p-2">Noch keine Angstgegner identifiziert. Weiter so!</div>';
+            }
+        
+            // 6. 🏆 LISTE DER HELDEN RENDERN
+            if(document.getElementById('helden-list')) {
+                const heldenList = document.getElementById('helden-list');
+                // Sortieren: Beste Erfolgsquote zuerst
+                heroData.sort((a, b) => b.rate - a.rate);
+                
+                heldenList.innerHTML = heroData.slice(0, 5).map(item => 
+                    `<div class="list-group-item list-group-item-success d-flex justify-content-between align-items-center small p-2" style="background-color: rgba(25, 135, 84, 0.1); border-left: 4px solid #198754;">${item.text}</div>`
+                ).join('') || '<div class="text-muted small p-2">Kämpfe mutig weiter, um dir Helden zu verdienen!</div>';
             }
         }
 
