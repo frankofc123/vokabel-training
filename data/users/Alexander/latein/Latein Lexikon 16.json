@@ -1,0 +1,243 @@
+[
+    {
+        "wort": "sērō",
+        "uebersetzung": "spät, zu spät",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 3,
+        "origin_file": "Latein Lexikon 16"
+    },
+    {
+        "wort": "is, ea, id",
+        "uebersetzung": "er, sie, es; dieser, diese, dieses",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 16",
+        "falsch": 2,
+        "richtig": 1
+    },
+    {
+        "wort": "decimus",
+        "uebersetzung": "der zehnte",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1
+    },
+    {
+        "wort": "dēmum",
+        "uebersetzung": "endlich; erst",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "nescīre",
+        "uebersetzung": "nicht wissen, nicht kennen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 16",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "ēgregius",
+        "uebersetzung": "ausgezeichnet, hervorragend",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 5,
+        "origin_file": "Latein Lexikon 16"
+    },
+    {
+        "wort": "paulum / paulō",
+        "uebersetzung": "(ein) wenig",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "frequens",
+        "uebersetzung": "zahlreich (anwesend); häufig",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "complūrēs",
+        "uebersetzung": "einige, mehrere, ziemlich viele",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 16",
+        "falsch": 3
+    },
+    {
+        "wort": "vinum",
+        "uebersetzung": "der Wein",
+        "genus": "n",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 16",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "āvertere",
+        "uebersetzung": "abwenden; vertreiben",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 5,
+        "origin_file": "Latein Lexikon 16"
+    },
+    {
+        "wort": "nisi",
+        "uebersetzung": "wenn nicht; außer",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 16",
+        "falsch": 5,
+        "richtig": 1
+    },
+    {
+        "wort": "non... nisi",
+        "uebersetzung": "nur..., wenn",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 16",
+        "falsch": 3
+    },
+    {
+        "wort": "commūnis",
+        "uebersetzung": "gemeinsam; allgemein, gewöhnlich; öffentlich",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "filia",
+        "uebersetzung": "die Tochter",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "uxor",
+        "uebersetzung": "die Ehefrau",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "spondēre",
+        "uebersetzung": "versprechen; sich verbürgen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 3,
+        "origin_file": "Latein Lexikon 16"
+    },
+    {
+        "wort": "testis",
+        "uebersetzung": "der Zeuge",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "cum (Subjunktion)",
+        "uebersetzung": "(immer) wenn",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 16",
+        "falsch": 2
+    },
+    {
+        "wort": "animus",
+        "uebersetzung": "das Herz; der Sinn; der Mut; der Geist",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "in animo habēre",
+        "uebersetzung": "vorhaben (etw. zu tun)",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 16",
+        "richtig": 1
+    },
+    {
+        "wort": "promittere",
+        "uebersetzung": "versprechen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "gaudium",
+        "uebersetzung": "die Freude",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "appellāre",
+        "uebersetzung": "anreden; sich wenden (an); (m. doppeltem Akk.) nennen, bezeichnen (als)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 10,
+        "origin_file": "Latein Lexikon 16"
+    },
+    {
+        "wort": "libens",
+        "uebersetzung": "gern; (bereit)willig",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "alter",
+        "uebersetzung": "der eine; der andere (von zweien)",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 16",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "favēre",
+        "uebersetzung": "gewogen sein; (jmdn.) begünstigen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 8,
+        "origin_file": "Latein Lexikon 16"
+    },
+    {
+        "wort": "incendere",
+        "uebersetzung": "anzünden; entflammen, in Aufregung versetzen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 7,
+        "origin_file": "Latein Lexikon 16"
+    },
+    {
+        "wort": "cēnāre",
+        "uebersetzung": "essen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 16",
+        "richtig": 1
+    },
+    {
+        "wort": "pergere",
+        "uebersetzung": "fortfahren, (etw.) weiter (tun)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 10,
+        "origin_file": "Latein Lexikon 16"
+    }
+]

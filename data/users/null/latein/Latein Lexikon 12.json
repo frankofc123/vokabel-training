@@ -1,0 +1,184 @@
+[
+    {
+        "wort": "fabula",
+        "uebersetzung": "die Geschichte, die Erzählung, das Theaterstück",
+        "genus": "f",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "post",
+        "uebersetzung": "nach; hinter",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "genus",
+        "uebersetzung": "das Geschlecht; die Art; die Gattung",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "restare",
+        "uebersetzung": "übrig sein, übrig bleiben; überleben",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "praeter",
+        "uebersetzung": "außer",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "mons",
+        "uebersetzung": "der Berg",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "flēre",
+        "uebersetzung": "weinen; beklagen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "terrere",
+        "uebersetzung": "(jmdn.) erschrecken",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "descendere",
+        "uebersetzung": "herabsteigen; hinuntergehen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "postquam",
+        "uebersetzung": "nachdem",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "per",
+        "uebersetzung": "durch (... hindurch); über ... hin; mithilfe",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "ara",
+        "uebersetzung": "der Altar",
+        "genus": "f",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "tangere",
+        "uebersetzung": "berühren",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "nūmen",
+        "uebersetzung": "die (göttliche) Macht; die Gottheit",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "colere",
+        "uebersetzung": "verehren; ausüben; bebauen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "pius",
+        "uebersetzung": "fromm; gewissenhaft",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "precēs",
+        "uebersetzung": "die Bitten; das Gebet",
+        "genus": "f (Pl.)",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "movere",
+        "uebersetzung": "bewegen; beeinflussen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "ōrāculum",
+        "uebersetzung": "das Orakel, der Götterspruch; die Orakelstätte",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "ēdere",
+        "uebersetzung": "verkünden; herausgeben",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "caput",
+        "uebersetzung": "der Kopf; die Hauptstadt",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "tergum",
+        "uebersetzung": "der Rücken",
+        "genus": "n",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "intellegere",
+        "uebersetzung": "verstehen; erkennen, einsehen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "credere",
+        "uebersetzung": "glauben; (an)vertrauen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "corpus",
+        "uebersetzung": "der Körper, der Leib",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "saxum",
+        "uebersetzung": "der Stein; der Fels(brocken)",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "instituere",
+        "uebersetzung": "beginnen; einrichten; unterrichten",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "vertere",
+        "uebersetzung": "wenden; drehen; verwandeln",
+        "genus": "",
+        "status": "gar nicht"
+    }
+]

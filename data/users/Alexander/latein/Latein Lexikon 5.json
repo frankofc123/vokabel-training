@@ -1,0 +1,230 @@
+[
+    {
+        "wort": "ante",
+        "uebersetzung": "vor",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 5",
+        "richtig": 1
+    },
+    {
+        "wort": "lūdere",
+        "uebersetzung": "spielen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 5",
+        "richtig": 1
+    },
+    {
+        "wort": "semper",
+        "uebersetzung": "immer",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 5",
+        "richtig": 1
+    },
+    {
+        "wort": "pater",
+        "uebersetzung": "der Vater",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 5",
+        "richtig": 1
+    },
+    {
+        "wort": "patronus",
+        "uebersetzung": "der Anwalt, der Verteidiger; der Schirmherr",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "causa",
+        "uebersetzung": "der Grund; der Prozess, der Streitfall",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "dicere",
+        "uebersetzung": "sagen; sprechen; (m. doppeltem Akk.) nennen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1,
+        "origin_file": "Latein Lexikon 5"
+    },
+    {
+        "wort": "forum",
+        "uebersetzung": "das Forum; der Marktplatz",
+        "genus": "n",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 5",
+        "richtig": 1
+    },
+    {
+        "wort": "dum",
+        "uebersetzung": "während",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "epistula",
+        "uebersetzung": "der Brief",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "legere",
+        "uebersetzung": "lesen; sammeln; auswählen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "nox",
+        "uebersetzung": "die Nacht",
+        "genus": "f",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 5",
+        "falsch": 2,
+        "richtig": 1
+    },
+    {
+        "wort": "iūdex",
+        "uebersetzung": "der Richter",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "dormire",
+        "uebersetzung": "schlafen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "invädere",
+        "uebersetzung": "eindringen, angreifen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 6,
+        "origin_file": "Latein Lexikon 5"
+    },
+    {
+        "wort": "domina",
+        "uebersetzung": "die (Haus-)Herrin",
+        "genus": "f",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 5",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "sümere",
+        "uebersetzung": "nehmen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "décèdere",
+        "uebersetzung": "weggehen, gehen (aus)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 5,
+        "origin_file": "Latein Lexikon 5"
+    },
+    {
+        "wort": "accurrere",
+        "uebersetzung": "herbeilaufen, angelaufen kommen",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 5",
+        "falsch": 4
+    },
+    {
+        "wort": "dominus",
+        "uebersetzung": "der (Haus-)Herr",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 3,
+        "origin_file": "Latein Lexikon 5"
+    },
+    {
+        "wort": "für",
+        "uebersetzung": "der Dieb",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "quaerere",
+        "uebersetzung": "suchen; fragen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "reus",
+        "uebersetzung": "der Angeklagte",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "si",
+        "uebersetzung": "wenn, falls",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "fuga",
+        "uebersetzung": "die Flucht",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "petere",
+        "uebersetzung": "bitten, verlangen; angreifen; aufsuchen; gehen zu/fahren nach",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1
+    },
+    {
+        "wort": "solēre",
+        "uebersetzung": "gewohnt sein, (etwas) normalerweise tun",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 5,
+        "origin_file": "Latein Lexikon 5"
+    },
+    {
+        "wort": "ōrātor",
+        "uebersetzung": "der Redner",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 5",
+        "richtig": 1
+    },
+    {
+        "wort": "vidērī",
+        "uebersetzung": "scheinen; (als ...) gelten",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 4,
+        "origin_file": "Latein Lexikon 5"
+    }
+]

@@ -1,0 +1,196 @@
+[
+    {
+        "wort": "cena",
+        "uebersetzung": "das (Abend-)Essen; die Mahlzeit",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 2
+    },
+    {
+        "wort": "adversus",
+        "uebersetzung": "ungünstig, widrig; feindlich",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "labor",
+        "uebersetzung": "die Arbeit; die Anstrengung; das Leid",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "imponere",
+        "uebersetzung": "setzen, stellen, legen (an, auf, in); auftragen; bringen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "labōrāre",
+        "uebersetzung": "arbeiten; sich anstrengen; (Not) leiden",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "puella",
+        "uebersetzung": "das Mädchen",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "oportere / oportet",
+        "uebersetzung": "es ist nötig; es ist angebracht, (jmd.) soll",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "non oportet",
+        "uebersetzung": "(jmd.) darf nicht",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "addere",
+        "uebersetzung": "hinzufügen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "quondam",
+        "uebersetzung": "einst; einmal",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "cum (Subjunktion)",
+        "uebersetzung": "(damals) als; als plötzlich",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "liber",
+        "uebersetzung": "frei; unabhängig",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "barbarus",
+        "uebersetzung": "barbarisch, wild; Subst.: der Barbar",
+        "genus": "m",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "mos",
+        "uebersetzung": "die Art; die Sitte, der Brauch; Pl.: auch der Charakter",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "errāre",
+        "uebersetzung": "(sich) irren; umherirren",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "hūmānitās",
+        "uebersetzung": "die Menschlichkeit; die Bildung",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "carere",
+        "uebersetzung": "frei sein (von etw.), (etw.) nicht haben",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "sacrum",
+        "uebersetzung": "das Heiligtum; das Opfer; Pl.: auch der Gottesdienst",
+        "genus": "n",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 3
+    },
+    {
+        "wort": "cūrāre",
+        "uebersetzung": "sorgen (für), sich kümmern (um)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "pūblicus",
+        "uebersetzung": "öffentlich, staatlich",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "privātus",
+        "uebersetzung": "persönlich, privat",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "statuere",
+        "uebersetzung": "beschließen, entscheiden; aufstellen; festsetzen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "nēmō",
+        "uebersetzung": "niemand",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "sacrificāre",
+        "uebersetzung": "opfern",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "hūmānus",
+        "uebersetzung": "menschlich; gebildet",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "quoniam",
+        "uebersetzung": "weil (... ja), wo ... doch",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "vivere",
+        "uebersetzung": "leben",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "adhūc",
+        "uebersetzung": "noch (immer); bis jetzt",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "mūtāre",
+        "uebersetzung": "(ver)ändern; verwandeln",
+        "genus": "",
+        "status": "nochmal üben"
+    }
+]

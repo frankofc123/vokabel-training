@@ -1,0 +1,876 @@
+[
+    {
+        "wort": "(to) queue",
+        "uebersetzung": "Schlange stehen, sich anstellen [cite: 1, 2]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "doorbell",
+        "uebersetzung": "Türklingel, Türglocke [cite: 3, 5]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) call out the names",
+        "uebersetzung": "die Namen aufrufen [cite: 4, 5]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "article",
+        "uebersetzung": "Artikel [cite: 4, 5]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "earphones",
+        "uebersetzung": "Ohrhörer, Kopfhörer [cite: 10, 21]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "And guess what!",
+        "uebersetzung": "Und stell dir vor! / Und weißt du was? [cite: 10, 22]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "I'm going to sing a song.",
+        "uebersetzung": "Ich werde ein Lied singen. [cite: 11, 23]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "by...",
+        "uebersetzung": "von... [cite: 12, 24]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "nervous",
+        "uebersetzung": "nervös, aufgeregt [cite: 13, 25]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "a bit",
+        "uebersetzung": "ein bisschen, etwas [cite: 14, 26]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "You should...",
+        "uebersetzung": "Du solltest... [cite: 15, 27]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "side",
+        "uebersetzung": "Seite [cite: 16, 27]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "a few",
+        "uebersetzung": "ein paar, einige [cite: 17, 28]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "present",
+        "uebersetzung": "Gegenwart [cite: 18, 29]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "future",
+        "uebersetzung": "Zukunft [cite: 19, 29]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "dialogue",
+        "uebersetzung": "Dialog [cite: 20, 30]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) get ready (for)",
+        "uebersetzung": "sich fertig machen (für) / sich vorbereiten (auf) [cite: 49, 59]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "mine",
+        "uebersetzung": "meiner, meine, meins [cite: 50, 60]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "worksheet",
+        "uebersetzung": "Arbeitsblatt [cite: 51, 61]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "longest",
+        "uebersetzung": "der/die/das längste [cite: 52, 62]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) label",
+        "uebersetzung": "beschriften, etikettieren [cite: 53, 63]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "label",
+        "uebersetzung": "Beschriftung, Schild, Etikett [cite: 54, 64]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "large",
+        "uebersetzung": "groß [cite: 55, 64]",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "(to) get on",
+        "uebersetzung": "vorankommen, zurechtkommen [cite: 56, 65]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(not) as big as",
+        "uebersetzung": "(nicht) so groß wie [cite: 57, 66]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "bigger than",
+        "uebersetzung": "größer als [cite: 58, 66]",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0,
+        "origin_file": "Englisch Unit 2"
+    },
+    {
+        "wort": "(to) get sth.",
+        "uebersetzung": "bekommen, besorgen, holen, gelangen [cite: 75, 77, 78, 80, 82]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) get on/off",
+        "uebersetzung": "ein-/aussteigen (Bus) [cite: 92, 95]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) get up",
+        "uebersetzung": "aufstehen [cite: 93, 95]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "ours",
+        "uebersetzung": "unserer, unsere, unseres [cite: 98, 88]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "awful",
+        "uebersetzung": "schrecklich, fürchterlich [cite: 99, 102]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "mistake",
+        "uebersetzung": "Fehler [cite: 100, 103]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "square kilometre",
+        "uebersetzung": "Quadratkilometer [cite: 101, 104]",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "tall",
+        "uebersetzung": "groß (Person), hoch (Gebäude) [cite: 106, 105]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(the) earth",
+        "uebersetzung": "die Erde (Planet) [cite: 111]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "about",
+        "uebersetzung": "ungefähr [cite: 111]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "plane",
+        "uebersetzung": "Flugzeug [cite: 111]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) read aloud",
+        "uebersetzung": "laut (vor)lesen [cite: 111]",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "(to) make sure that...",
+        "uebersetzung": "sich vergewissern / dafür sorgen, dass... [cite: 111]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "everything",
+        "uebersetzung": "alles [cite: 111]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) pause",
+        "uebersetzung": "innehalten, pausieren [cite: 111]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "scared",
+        "uebersetzung": "verängstigt [cite: 111]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "full stop",
+        "uebersetzung": "Punkt (Satzzeichen) [cite: 118]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "question mark",
+        "uebersetzung": "Fragezeichen [cite: 118]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "comma",
+        "uebersetzung": "Komma [cite: 118]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "exclamation mark",
+        "uebersetzung": "Ausrufezeichen [cite: 118]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "colon",
+        "uebersetzung": "Doppelpunkt [cite: 118]",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "hyphen",
+        "uebersetzung": "Bindestrich [cite: 118]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) change",
+        "uebersetzung": "(ver)ändern, sich ändern [cite: 119, 120]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "brilliant",
+        "uebersetzung": "großartig, genial [cite: 128, 131]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "yours",
+        "uebersetzung": "deiner, eurer [cite: 129, 132]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "hers",
+        "uebersetzung": "ihrer, ihre, ihrs [cite: 130, 133]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "lovely",
+        "uebersetzung": "schön, hübsch, herrlich [cite: 137, 150]",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "even",
+        "uebersetzung": "sogar [cite: 138, 151]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "more beautiful",
+        "uebersetzung": "schöner (als) [cite: 139, 152]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "most beautiful",
+        "uebersetzung": "am schönsten [cite: 140, 153]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "so far",
+        "uebersetzung": "bis jetzt, bis hierher [cite: 141, 155]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "stage",
+        "uebersetzung": "Bühne [cite: 142, 156]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "on my own",
+        "uebersetzung": "allein [cite: 143, 157]",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "talented",
+        "uebersetzung": "begabt, talentiert [cite: 144, 158]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) cheer",
+        "uebersetzung": "jubeln [cite: 145, 158]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) clap",
+        "uebersetzung": "klatschen [cite: 146, 159]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "cinema",
+        "uebersetzung": "Kino [cite: 147, 160]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "concert",
+        "uebersetzung": "Konzert [cite: 148, 161]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "recorder",
+        "uebersetzung": "Blockflöte [cite: 149, 174]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "theatre",
+        "uebersetzung": "Theater [cite: 149, 179]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "syllable",
+        "uebersetzung": "Silbe [cite: 180, 181]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "fashion",
+        "uebersetzung": "Mode [cite: 182, 183]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "round the world",
+        "uebersetzung": "um die Welt [cite: 184, 185]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "town hall",
+        "uebersetzung": "Rathaus [cite: 186, 187]",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1,
+        "origin_file": "Englisch Unit 2"
+    },
+    {
+        "wort": "snow",
+        "uebersetzung": "Schnee [cite: 188, 189]",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "whose?",
+        "uebersetzung": "wessen? [cite: 190, 191]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "fat",
+        "uebersetzung": "dick, fett [cite: 193, 194]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "paw",
+        "uebersetzung": "Pfote, Tatze [cite: 195, 199]",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "stairs",
+        "uebersetzung": "Treppe [cite: 196, 201]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "upstairs",
+        "uebersetzung": "oben, treppauf [cite: 200, 208]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "downstairs",
+        "uebersetzung": "unten, treppab [cite: 204]",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "What could be better?",
+        "uebersetzung": "Was könnte besser sein? [cite: 197, 205]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "could",
+        "uebersetzung": "konnte(n), könnte(n) [cite: 210]",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "clear",
+        "uebersetzung": "klar, deutlich [cite: 213]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "size",
+        "uebersetzung": "Größe [cite: 213]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "correct",
+        "uebersetzung": "richtig, korrekt [cite: 213]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "like this",
+        "uebersetzung": "so (auf diese Weise) [cite: 213]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) lie",
+        "uebersetzung": "liegen [cite: 213]",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "(to) wake sb. up",
+        "uebersetzung": "jemanden (auf)wecken [cite: 213]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "shy",
+        "uebersetzung": "schüchtern, scheu [cite: 213]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) stick sth. into sth.",
+        "uebersetzung": "etwas in etwas stecken/stechen [cite: 215, 224]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "fork",
+        "uebersetzung": "Gabel [cite: 216, 225]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "knife",
+        "uebersetzung": "Messer [cite: 217, 226]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "spoon",
+        "uebersetzung": "Löffel [cite: 218, 227]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "teaspoon",
+        "uebersetzung": "Teelöffel [cite: 239]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) drop sth.",
+        "uebersetzung": "etwas fallen lassen [cite: 219, 228]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "drama",
+        "uebersetzung": "Schauspiel, darstellende Kunst [cite: 219, 229]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "gel",
+        "uebersetzung": "Gel [cite: 220, 229]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "sunglasses",
+        "uebersetzung": "Sonnenbrille [cite: 221, 230]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "glasses",
+        "uebersetzung": "Brille [cite: 222, 231]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "arm",
+        "uebersetzung": "Arm [cite: 223, 232]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "flash",
+        "uebersetzung": "Lichtblitz [cite: 242, 243]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "head",
+        "uebersetzung": "Kopf [cite: 244, 245]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "nose",
+        "uebersetzung": "Nase [cite: 247]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "eye",
+        "uebersetzung": "Auge [cite: 248]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "ear",
+        "uebersetzung": "Ohr [cite: 249]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "mouth",
+        "uebersetzung": "Mund [cite: 250]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) shake",
+        "uebersetzung": "schütteln [cite: 251, 252]",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) beep",
+        "uebersetzung": "piepen [cite: 253, 254]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) wish",
+        "uebersetzung": "wünschen [cite: 256, 255]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) stand",
+        "uebersetzung": "stehen, sich hinstellen [cite: 257, 259]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "most people",
+        "uebersetzung": "die meisten Menschen [cite: 267, 269]",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "one by one",
+        "uebersetzung": "einer nach dem anderen [cite: 267, 270]",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    }
+]

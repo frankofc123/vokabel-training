@@ -1,0 +1,56 @@
+[
+    {
+        "wort": "red",
+        "uebersetzung": "rot",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 3,
+        "falsch": 0,
+        "origin_file": "Englisch Farbe"
+    },
+    {
+        "wort": "blue",
+        "uebersetzung": "blau",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 3,
+        "falsch": 0,
+        "origin_file": "Englisch Farbe"
+    },
+    {
+        "wort": "green",
+        "uebersetzung": "grün",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 5,
+        "falsch": 0,
+        "origin_file": "Englisch Farbe"
+    },
+    {
+        "wort": "yellow",
+        "uebersetzung": "gelb",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 3,
+        "falsch": 0,
+        "origin_file": "Englisch Farbe"
+    },
+    {
+        "wort": "black",
+        "uebersetzung": "schwarz",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 1,
+        "falsch": 1,
+        "origin_file": "Englisch Farbe"
+    },
+    {
+        "wort": "white",
+        "uebersetzung": "weiß",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 1,
+        "falsch": 1,
+        "origin_file": "Englisch Farbe"
+    }
+]

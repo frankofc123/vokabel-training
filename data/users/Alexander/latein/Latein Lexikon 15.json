@@ -1,0 +1,232 @@
+[
+    {
+        "wort": "vester",
+        "uebersetzung": "euer",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "noster",
+        "uebersetzung": "unser",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 15",
+        "richtig": 1
+    },
+    {
+        "wort": "gravis",
+        "uebersetzung": "schwer; wichtig; ernst",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 4,
+        "origin_file": "Latein Lexikon 15"
+    },
+    {
+        "wort": "tuus",
+        "uebersetzung": "dein",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 15",
+        "richtig": 1
+    },
+    {
+        "wort": "opiniō",
+        "uebersetzung": "die Meinung, die Ansicht",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "sē",
+        "uebersetzung": "sich (Akk.)",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "sibi",
+        "uebersetzung": "sich (Dat.)",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 15",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "sēcum",
+        "uebersetzung": "mit sich, bei sich",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 15",
+        "falsch": 7
+    },
+    {
+        "wort": "ācer",
+        "uebersetzung": "heftig; hart; scharf",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "facilis",
+        "uebersetzung": "leicht; umgänglich",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 15",
+        "falsch": 4
+    },
+    {
+        "wort": "arcessere",
+        "uebersetzung": "herbeirufen, holen",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 15",
+        "falsch": 6
+    },
+    {
+        "wort": "brevis",
+        "uebersetzung": "kurz",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "vix",
+        "uebersetzung": "kaum; mit Mühe",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 5,
+        "origin_file": "Latein Lexikon 15"
+    },
+    {
+        "wort": "fēlīx",
+        "uebersetzung": "glücklich; vom Glück begünstigt",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 15",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "suus",
+        "uebersetzung": "sein; ihr (reflexiv)",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 15",
+        "richtig": 1
+    },
+    {
+        "wort": "pro",
+        "uebersetzung": "vor; für; anstelle (von)",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "certus",
+        "uebersetzung": "sicher, gewiss; bestimmt; zuverlässig",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "pro certō habēre",
+        "uebersetzung": "sich sicher sein",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 5,
+        "origin_file": "Latein Lexikon 15"
+    },
+    {
+        "wort": "ambō",
+        "uebersetzung": "beide",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 15",
+        "richtig": 1
+    },
+    {
+        "wort": "meus",
+        "uebersetzung": "mein",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 15",
+        "richtig": 1
+    },
+    {
+        "wort": "grandis",
+        "uebersetzung": "groß; bedeutend, großartig",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "praetereā",
+        "uebersetzung": "außerdem",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 15",
+        "falsch": 3
+    },
+    {
+        "wort": "clārus",
+        "uebersetzung": "hell, klar; berühmt",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "omnis",
+        "uebersetzung": "jeder; ganz; Pl. alle",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "umerus",
+        "uebersetzung": "die Schulter; der Oberarm",
+        "genus": "m",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 15",
+        "falsch": 4
+    },
+    {
+        "wort": "invenīre",
+        "uebersetzung": "(auf)finden; erfinden, entdecken",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 5,
+        "origin_file": "Latein Lexikon 15"
+    },
+    {
+        "wort": "aureus",
+        "uebersetzung": "golden, aus Gold",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "dolus",
+        "uebersetzung": "die List",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 15",
+        "richtig": 1
+    },
+    {
+        "wort": "simulāre",
+        "uebersetzung": "vortäuschen; so tun als ob",
+        "genus": "",
+        "status": "sehr gut"
+    }
+]

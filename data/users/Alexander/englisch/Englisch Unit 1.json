@@ -1,0 +1,991 @@
+[
+    {
+        "wort": "summer",
+        "uebersetzung": "Sommer",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "parents",
+        "uebersetzung": "Eltern",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "windy",
+        "uebersetzung": "windig",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "wind",
+        "uebersetzung": "Wind",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 3,
+        "falsch": 0
+    },
+    {
+        "wort": "grandparents",
+        "uebersetzung": "Großeltern",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "project",
+        "uebersetzung": "Projekt",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "I can't wait to see...",
+        "uebersetzung": "Ich kann es kaum erwarten, ... zu sehen.",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "rainforest",
+        "uebersetzung": "Regenwald",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "forest",
+        "uebersetzung": "Wald",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "rain",
+        "uebersetzung": "Regen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0,
+        "origin_file": "Englisch Unit 1"
+    },
+    {
+        "wort": "to rain",
+        "uebersetzung": "regnen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "plant",
+        "uebersetzung": "Pflanze",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "spring",
+        "uebersetzung": "Frühling",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "autumn",
+        "uebersetzung": "Herbst",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "winter",
+        "uebersetzung": "Winter",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "the USA",
+        "uebersetzung": "die USA (die Vereinigten Staaten von Amerika)",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "sights",
+        "uebersetzung": "Sehenswürdigkeiten",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to take photos",
+        "uebersetzung": "fotografieren, Fotos machen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "stop",
+        "uebersetzung": "Halt, Station, Haltestelle",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "full (of)",
+        "uebersetzung": "voll",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "cloudy",
+        "uebersetzung": "bewölkt",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "cloud",
+        "uebersetzung": "Wolke",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "caravan",
+        "uebersetzung": "Wohnwagen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to get",
+        "uebersetzung": "bekommen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "weather",
+        "uebersetzung": "Wetter",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "wave",
+        "uebersetzung": "Welle",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "tomorrow",
+        "uebersetzung": "morgen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "world",
+        "uebersetzung": "Welt",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "warm",
+        "uebersetzung": "warm",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0,
+        "origin_file": "Englisch Unit 1"
+    },
+    {
+        "wort": "cold",
+        "uebersetzung": "kalt",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "sunny",
+        "uebersetzung": "sonnig",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "mountain",
+        "uebersetzung": "Berg",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "beautiful",
+        "uebersetzung": "schön",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "message",
+        "uebersetzung": "Nachricht",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "brochure",
+        "uebersetzung": "Broschüre, Prospekt",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "phone call",
+        "uebersetzung": "Anruf, Telefongespräch",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "to phone sb.",
+        "uebersetzung": "jn. anrufen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to answer the phone",
+        "uebersetzung": "ans Telefon gehen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to be in",
+        "uebersetzung": "zu Hause sein",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to be out",
+        "uebersetzung": "nicht zu Hause sein, nicht da sein",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to leave a message",
+        "uebersetzung": "eine Nachricht hinterlassen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "holiday",
+        "uebersetzung": "Urlaub",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1,
+        "origin_file": "Englisch Unit 1"
+    },
+    {
+        "wort": "at first",
+        "uebersetzung": "zuerst, anfangs, am Anfang",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "bad",
+        "uebersetzung": "schlecht, schlimm",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "fun park",
+        "uebersetzung": "Vergnügungspark",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "ride",
+        "uebersetzung": "Fahrt (auch Karussellfahrt)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "fantastic",
+        "uebersetzung": "fantastisch",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "country",
+        "uebersetzung": "Land (Staat)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "building",
+        "uebersetzung": "Gebäude",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "if",
+        "uebersetzung": "wenn, falls",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "to bring",
+        "uebersetzung": "(mit-, her)bringen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "one more time",
+        "uebersetzung": "noch einmal, noch ein Mal",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "past",
+        "uebersetzung": "Vergangenheit",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "train",
+        "uebersetzung": "Zug",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "island",
+        "uebersetzung": "Insel",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "campsite",
+        "uebersetzung": "Zeltplatz",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "lake",
+        "uebersetzung": "(Binnen-)See",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "shopping mall",
+        "uebersetzung": "(großes) Einkaufszentrum",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "rainy",
+        "uebersetzung": "regnerisch",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "paragraph",
+        "uebersetzung": "Absatz (in einem Text)",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "expensive",
+        "uebersetzung": "teuer",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "cheap",
+        "uebersetzung": "billig, preiswert",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "chips",
+        "uebersetzung": "Pommes frites",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "sky",
+        "uebersetzung": "Himmel",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "top",
+        "uebersetzung": "Spitzen-, Spitze",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "drawing",
+        "uebersetzung": "Zeichnung",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to draw",
+        "uebersetzung": "zeichnen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "order",
+        "uebersetzung": "Reihenfolge / bestellen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to think of sth.",
+        "uebersetzung": "sich etwas ausdenken; an etwas denken",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "another",
+        "uebersetzung": "ein(e) andere(r, s); noch ein(e)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "to arrange",
+        "uebersetzung": "anordnen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "neighbour",
+        "uebersetzung": "Nachbar/in",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "tea",
+        "uebersetzung": "leichte Nachmittags- oder Abendmahlzeit",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "this afternoon/evening",
+        "uebersetzung": "heute Nachmittag/Abend",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "son",
+        "uebersetzung": "Sohn",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "daughter",
+        "uebersetzung": "Tochter",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "lonely",
+        "uebersetzung": "einsam",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "to be busy",
+        "uebersetzung": "beschäftigt sein, viel zu tun haben",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "already",
+        "uebersetzung": "schon, bereits",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "to invite sb. (to)",
+        "uebersetzung": "jn. einladen (zu)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1,
+        "origin_file": "Englisch Unit 1"
+    },
+    {
+        "wort": "only",
+        "uebersetzung": "erst",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to move in",
+        "uebersetzung": "einziehen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "a week ago",
+        "uebersetzung": "vor einer Woche",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "problem",
+        "uebersetzung": "Problem",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "news",
+        "uebersetzung": "Nachrichten, Neuigkeiten",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to mean",
+        "uebersetzung": "bedeuten / meinen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "context",
+        "uebersetzung": "Zusammenhang, Kontext",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "similar",
+        "uebersetzung": "ähnlich",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1,
+        "origin_file": "Englisch Unit 1"
+    },
+    {
+        "wort": "to ring",
+        "uebersetzung": "klingeln, läuten",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "invitation",
+        "uebersetzung": "Einladung",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to be allowed to",
+        "uebersetzung": "etwas tun dürfen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "to stay",
+        "uebersetzung": "bleiben",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "easy",
+        "uebersetzung": "einfach, leicht",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "difficult",
+        "uebersetzung": "schwierig, schwer",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "when",
+        "uebersetzung": "als, wenn, wann",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "to hit",
+        "uebersetzung": "schlagen; treffen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to hold",
+        "uebersetzung": "halten",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "to miss",
+        "uebersetzung": "verpassen, verfehlen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "careful",
+        "uebersetzung": "vorsichtig",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "free",
+        "uebersetzung": "kostenlos, frei",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to bite",
+        "uebersetzung": "beißen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to give sb. a hug",
+        "uebersetzung": "jn. umarmen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "bored",
+        "uebersetzung": "gelangweilt",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to climb",
+        "uebersetzung": "klettern",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to look forward to",
+        "uebersetzung": "sich auf etwas freuen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "tear",
+        "uebersetzung": "Träne",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "unhappy",
+        "uebersetzung": "unglücklich",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "apartment",
+        "uebersetzung": "Wohnung",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "fries",
+        "uebersetzung": "Pommes frites",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to wash the dishes",
+        "uebersetzung": "das Geschirr abwaschen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "century",
+        "uebersetzung": "Jahrhundert",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "to land",
+        "uebersetzung": "landen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "right now",
+        "uebersetzung": "jetzt gerade",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "pancake",
+        "uebersetzung": "Pfannkuchen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "outside",
+        "uebersetzung": "draußen, vor",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "next to",
+        "uebersetzung": "neben",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "tent",
+        "uebersetzung": "Zelt",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "high",
+        "uebersetzung": "hoch",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "shadow",
+        "uebersetzung": "Schatten",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "fire",
+        "uebersetzung": "Feuer",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "torch",
+        "uebersetzung": "Taschenlampe",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "own",
+        "uebersetzung": "eigen (z.B. mein eigener)",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "memory",
+        "uebersetzung": "Erinnerung",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    }
+]

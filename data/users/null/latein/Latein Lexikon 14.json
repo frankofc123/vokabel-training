@@ -1,0 +1,194 @@
+[
+    {
+        "wort": "tempestās",
+        "uebersetzung": "der Sturm; das (schlechte) Wetter",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "caelum",
+        "uebersetzung": "der Himmel; das Klima",
+        "genus": "n",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "cadere",
+        "uebersetzung": "fallen, sinken",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "hōra",
+        "uebersetzung": "die Stunde",
+        "genus": "f",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "-que",
+        "uebersetzung": "und",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "oppidum",
+        "uebersetzung": "die Stadt",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "iter",
+        "uebersetzung": "der Weg; die Reise; der Marsch",
+        "genus": "n",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "iter vertere",
+        "uebersetzung": "umkehren",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "longus",
+        "uebersetzung": "lang; lang andauernd",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "parātus",
+        "uebersetzung": "bereit",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "consistere",
+        "uebersetzung": "stehen bleiben; sich hinstellen; bestehen (aus)",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "arbor",
+        "uebersetzung": "der Baum",
+        "genus": "f",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "via",
+        "uebersetzung": "der Weg, die Straße",
+        "genus": "f",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "frangere",
+        "uebersetzung": "(zer)brechen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "offendere",
+        "uebersetzung": "beleidigen; (an)stoßen",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "tollere",
+        "uebersetzung": "hochheben; beseitigen, vernichten, entfernen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "pōnere",
+        "uebersetzung": "setzen; stellen; legen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "nūllus",
+        "uebersetzung": "kein",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "membrum",
+        "uebersetzung": "das (Mit-)Glied; der Körperteil",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "aperīre",
+        "uebersetzung": "öffnen; aufdecken",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "surgere",
+        "uebersetzung": "aufstehen, sich erheben",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "sentīre",
+        "uebersetzung": "fühlen; merken; meinen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "mox",
+        "uebersetzung": "bald (darauf)",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "haud",
+        "uebersetzung": "nicht; ganz und gar nicht",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "advenīre",
+        "uebersetzung": "ankommen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "priusquam",
+        "uebersetzung": "bevor, (nach verneintem Satz) bevor nicht",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "tempus",
+        "uebersetzung": "die Zeit; der (passende) Zeitpunkt",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "cibus",
+        "uebersetzung": "die Speise; die Nahrung",
+        "genus": "m",
+        "status": "nochmal üben"
+    }
+]

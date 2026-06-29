@@ -1,0 +1,198 @@
+[
+    {
+        "wort": "sacerdōs",
+        "uebersetzung": "der/die Priester(in)",
+        "genus": "m/f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "relinquere",
+        "uebersetzung": "zurücklassen, verlassen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "insidiae",
+        "uebersetzung": "der Hinterhalt, die Falle, der Anschlag",
+        "genus": "f (Pl.)",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "aut... aut",
+        "uebersetzung": "entweder... oder",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "latēre",
+        "uebersetzung": "verborgen sein; sich verbergen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1
+    },
+    {
+        "wort": "fraus",
+        "uebersetzung": "der Betrug, die Täuschung",
+        "genus": "f",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "instāre",
+        "uebersetzung": "drohen, bevorstehen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "incendium",
+        "uebersetzung": "der Brand, das Feuer",
+        "genus": "n",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "dēlēre",
+        "uebersetzung": "zerstören, vernichten",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "addūcere",
+        "uebersetzung": "heranführen; veranlassen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "supplex",
+        "uebersetzung": "bittend, flehend",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "parcere",
+        "uebersetzung": "(jmdn.) schonen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "plēnus",
+        "uebersetzung": "voll",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "castra",
+        "uebersetzung": "das Lager",
+        "genus": "n (Pl.)",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "fugere",
+        "uebersetzung": "fliehen (vor); (etw.) meiden",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "silva",
+        "uebersetzung": "der Wald",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "ob",
+        "uebersetzung": "wegen",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "bellum",
+        "uebersetzung": "der Krieg",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "narrāre",
+        "uebersetzung": "erzählen, berichten",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "aedificāre",
+        "uebersetzung": "bauen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "lītus",
+        "uebersetzung": "der Strand",
+        "genus": "n",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "contendere",
+        "uebersetzung": "sich anstrengen; eilen; kämpfen; behaupten",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "frustrā",
+        "uebersetzung": "vergeblich",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "arcēre",
+        "uebersetzung": "abwehren, fernhalten",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "incertus",
+        "uebersetzung": "unsicher, ungewiss; unschlüssig",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "īrātus",
+        "uebersetzung": "zornig, wütend",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "dīvidere",
+        "uebersetzung": "teilen; trennen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "mūrus",
+        "uebersetzung": "die Mauer",
+        "genus": "m",
+        "status": "sehr gut"
+    }
+]

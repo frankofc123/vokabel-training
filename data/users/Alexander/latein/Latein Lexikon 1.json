@@ -1,0 +1,232 @@
+[
+    {
+        "wort": "silentium",
+        "uebersetzung": "die Ruhe, die Stille; das Schweigen",
+        "genus": "n",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "esse",
+        "uebersetzung": "sein",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "asinus",
+        "uebersetzung": "der Esel",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "non iam",
+        "uebersetzung": "nicht mehr",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "clāmāre",
+        "uebersetzung": "schreien, (laut) rufen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 1",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "etiam",
+        "uebersetzung": "auch; sogar",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 1",
+        "richtig": 1
+    },
+    {
+        "wort": "tacēre",
+        "uebersetzung": "schweigen, still sein",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 1",
+        "falsch": 2,
+        "richtig": 1
+    },
+    {
+        "wort": "villa",
+        "uebersetzung": "das (Land-)Haus; das Landgut",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1,
+        "origin_file": "Latein Lexikon 1"
+    },
+    {
+        "wort": "iacere",
+        "uebersetzung": "(da)liegen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 1",
+        "richtig": 1
+    },
+    {
+        "wort": "porta",
+        "uebersetzung": "das Tor, die Tür; der Zugang",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "patēre",
+        "uebersetzung": "offen stehen; offenkundig sein; sich erstrecken",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 1",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "stare",
+        "uebersetzung": "(da)stehen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "et",
+        "uebersetzung": "und; auch",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 1",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "exspectare",
+        "uebersetzung": "warten (auf), erwarten",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "sic",
+        "uebersetzung": "so",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "cogitāre",
+        "uebersetzung": "denken (an); nachdenken (über); beabsichtigen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 1",
+        "falsch": 2,
+        "richtig": 1
+    },
+    {
+        "wort": "properāre",
+        "uebersetzung": "eilen; sich beeilen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 3,
+        "origin_file": "Latein Lexikon 1"
+    },
+    {
+        "wort": "ubi",
+        "uebersetzung": "wo",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "cūr",
+        "uebersetzung": "warum?",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 1",
+        "richtig": 1
+    },
+    {
+        "wort": "amīca",
+        "uebersetzung": "die Freundin",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "non",
+        "uebersetzung": "nicht",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "venīre",
+        "uebersetzung": "kommen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "placere",
+        "uebersetzung": "gefallen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1
+    },
+    {
+        "wort": "(non) placet",
+        "uebersetzung": "es macht (keinen) Spaß",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1,
+        "origin_file": "Latein Lexikon 1"
+    },
+    {
+        "wort": "subitō",
+        "uebersetzung": "plötzlich",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "valdē",
+        "uebersetzung": "sehr",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "gaudēre",
+        "uebersetzung": "sich freuen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "quid?",
+        "uebersetzung": "was?",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1
+    },
+    {
+        "wort": "ecce!",
+        "uebersetzung": "schau!/schaut!, sieh da!/seht!",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 1",
+        "richtig": 1
+    },
+    {
+        "wort": "quis?",
+        "uebersetzung": "wer?",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 1",
+        "richtig": 1
+    }
+]

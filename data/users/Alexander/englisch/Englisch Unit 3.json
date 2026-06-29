@@ -1,0 +1,965 @@
+[
+    {
+        "wort": "except",
+        "uebersetzung": "außer, bis auf",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 3,
+        "origin_file": "Englisch Unit 3"
+    },
+    {
+        "wort": "good-looking",
+        "uebersetzung": "gutaussehend",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "Anyway",
+        "uebersetzung": "Jedenfalls, Wie dem auch sei, Aber egal",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "out and about",
+        "uebersetzung": "unterwegs",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 3
+    },
+    {
+        "wort": "opposite",
+        "uebersetzung": "gegenüber (von)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "post office",
+        "uebersetzung": "Postamt",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "station",
+        "uebersetzung": "Bahnhof",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "church",
+        "uebersetzung": "Kirche",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1
+    },
+    {
+        "wort": "roundabout",
+        "uebersetzung": "Kreisverkehr",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "on the corner of",
+        "uebersetzung": "Ecke",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) cross",
+        "uebersetzung": "überqueren, kreuzen; sich kreuzen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) turn left/right",
+        "uebersetzung": "(nach) links/rechts abbiegen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "left",
+        "uebersetzung": "links / Auf der linken Seite",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "right",
+        "uebersetzung": "rechts / Auf der rechten Seite",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "straight on",
+        "uebersetzung": "geradeaus weiter",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "past",
+        "uebersetzung": "vorbei (an), vorüber (an)",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "Excuse me",
+        "uebersetzung": "Entschuldigung... / Entschuldigen Sie...",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "(to) tell somebody the way",
+        "uebersetzung": "jemandem den Weg beschreiben",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) ask somebody the way",
+        "uebersetzung": "jemanden nach dem Weg fragen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1,
+        "origin_file": "Englisch Unit 3"
+    },
+    {
+        "wort": "visitor",
+        "uebersetzung": "Besucher/in, Gast",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "pedestrian zone",
+        "uebersetzung": "Fußgängerzone",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "after",
+        "uebersetzung": "nach, nachdem",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "just after",
+        "uebersetzung": "gleich nachdem..., kurz nachdem...",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "(to) cost",
+        "uebersetzung": "kosten",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) close",
+        "uebersetzung": "schließen, zumachen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "chocolate",
+        "uebersetzung": "Schokolade, Praline",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) need to do sth.",
+        "uebersetzung": "etwas tun müssen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "flower",
+        "uebersetzung": "Blume, Blüte",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "stall",
+        "uebersetzung": "(Markt-)Stand",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "plastic",
+        "uebersetzung": "Plastik, Kunststoff",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) break",
+        "uebersetzung": "zerbrechen, kaputt machen; brechen, kaputt gehen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "felt pen",
+        "uebersetzung": "Filzstift",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "as",
+        "uebersetzung": "als, während",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "cash desk",
+        "uebersetzung": "Kasse (in Geschäften)",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "shop assistant",
+        "uebersetzung": "Verkäufer/in",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "set",
+        "uebersetzung": "Satz, Set",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "Have you got ...?",
+        "uebersetzung": "Haben Sie...? / Hast du ...? / Habt ihr...?",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "change",
+        "uebersetzung": "Wechselgeld / Änderung, Veränderung",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) know about sth.",
+        "uebersetzung": "sich mit etwas auskennen, Bescheid wissen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "gram",
+        "uebersetzung": "Gramm",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "packet",
+        "uebersetzung": "Packung, Päckchen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1,
+        "origin_file": "Englisch Unit 3"
+    },
+    {
+        "wort": "tin",
+        "uebersetzung": "Dose",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "a bottle of milk",
+        "uebersetzung": "eine Flasche Milch",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "a packet of biscuits",
+        "uebersetzung": "eine Packung Kekse",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "a plate of chips",
+        "uebersetzung": "ein Teller Pommes",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "a tin of soup",
+        "uebersetzung": "eine Dose Suppe",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "a basket of fruit",
+        "uebersetzung": "ein Korb Obst",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "a kilo of oranges",
+        "uebersetzung": "ein Kilo Orangen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "juice",
+        "uebersetzung": "Saft",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "tomato",
+        "uebersetzung": "Tomate",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "sock",
+        "uebersetzung": "Socke",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) scan a text",
+        "uebersetzung": "einen Text schnell nach Informationen absuchen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "skill",
+        "uebersetzung": "Fertigkeit",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "souvenir",
+        "uebersetzung": "Andenken, Souvenir",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "magic",
+        "uebersetzung": "magisch, Zauber-",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) make sb. sth",
+        "uebersetzung": "jn zu etwas machen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "(to) fight sb.",
+        "uebersetzung": "jn. bekämpfen; gegen jn kämpfen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "prize",
+        "uebersetzung": "Preis, Gewinn",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "just then",
+        "uebersetzung": "genau in dem Moment, gerade dann",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "slowly",
+        "uebersetzung": "langsam",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "wall",
+        "uebersetzung": "Mauer, Wand",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "role",
+        "uebersetzung": "Rolle (Theaterstück, Film)",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "as kung fu master",
+        "uebersetzung": "als Kung Fu-Master",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "in a loud/soft voice",
+        "uebersetzung": "mit lauter/sanfter Stimme",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "up and down",
+        "uebersetzung": "auf und ab; rauf und runter",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "good",
+        "uebersetzung": "gut, brav",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "responsible",
+        "uebersetzung": "verantwortlich",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) look after sb.",
+        "uebersetzung": "auf jn. aufpassen, sich um jn kümmern",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "well",
+        "uebersetzung": "gut (Adverb)",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) worry (about)",
+        "uebersetzung": "sich Sorgen machen (wegen, um)",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) happen (to)",
+        "uebersetzung": "geschehen, passieren (mit)",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) describe sth.",
+        "uebersetzung": "(jm.) etwas beschreiben",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "irregular",
+        "uebersetzung": "unregelmäßig",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "topic",
+        "uebersetzung": "Thema, Themengebiet",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) highlight",
+        "uebersetzung": "hervorheben, markieren",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "example",
+        "uebersetzung": "Beispiel",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) underline",
+        "uebersetzung": "unterstreichen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "draft",
+        "uebersetzung": "Entwurf",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "back",
+        "uebersetzung": "Rückseite, hintere Seite",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "front",
+        "uebersetzung": "Vorderseite, vordere Seite",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "seat",
+        "uebersetzung": "Sitz, Platz",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "not... anybody",
+        "uebersetzung": "niemand",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "Who...?",
+        "uebersetzung": "Wer? / Wen? / Wem?",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "close (to)",
+        "uebersetzung": "nah, dicht (bei, an)",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) whisper",
+        "uebersetzung": "flüstern",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) cry",
+        "uebersetzung": "schreien, weinen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) look around",
+        "uebersetzung": "sich umsehen, sich umschauen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "not at all",
+        "uebersetzung": "überhaupt nicht, gar nicht",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) hurry",
+        "uebersetzung": "eilen; sich beeilen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) be interested (in)",
+        "uebersetzung": "interessiert sein (an), sich interessieren (für)",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "race",
+        "uebersetzung": "Rennen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "subject",
+        "uebersetzung": "Subjekt",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "object",
+        "uebersetzung": "Objekt",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "broken",
+        "uebersetzung": "zerbrochen, kaputt, gebrochen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "that's why",
+        "uebersetzung": "deshalb, darum",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "gate",
+        "uebersetzung": "Tor, Pforte, Gatter",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "Cut!",
+        "uebersetzung": "Schnitt! (beim Filmen)",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) cut",
+        "uebersetzung": "schneiden",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) disappear",
+        "uebersetzung": "verschwinden",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "up here",
+        "uebersetzung": "hier oben, nach hier oben",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "roof",
+        "uebersetzung": "Dach",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "view (of)",
+        "uebersetzung": "Aussicht, Blick (auf)",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "shore",
+        "uebersetzung": "Ufer (eines Sees), Strand",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "further",
+        "uebersetzung": "weiter",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "hole",
+        "uebersetzung": "Loch",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "up to",
+        "uebersetzung": "bis (zu)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "waist",
+        "uebersetzung": "Taille",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "the only...",
+        "uebersetzung": "der/die/das einzige... / die einzigen...",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "hurt",
+        "uebersetzung": "verletzt",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "leg",
+        "uebersetzung": "Bein",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "wood",
+        "uebersetzung": "Holz",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "body",
+        "uebersetzung": "Körper",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "over to...",
+        "uebersetzung": "hinüber zu/nach",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "thanks to",
+        "uebersetzung": "dank",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) be cold",
+        "uebersetzung": "frieren / Mir ist kalt",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "lip",
+        "uebersetzung": "Lippe",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "(to) hug sb.",
+        "uebersetzung": "jn. umarmen",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "(to) rescue",
+        "uebersetzung": "retten",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "background",
+        "uebersetzung": "Hintergrund",
+        "genus": "",
+        "status": "gar nicht",
+        "richtig": 0,
+        "falsch": 0
+    },
+    {
+        "wort": "foreground",
+        "uebersetzung": "Vordergrund",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    }
+]

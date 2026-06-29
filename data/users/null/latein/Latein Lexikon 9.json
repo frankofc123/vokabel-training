@@ -1,0 +1,200 @@
+[
+    {
+        "wort": "quam",
+        "uebersetzung": "wie; wie sehr",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "pulcher",
+        "uebersetzung": "schön",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "bene",
+        "uebersetzung": "gut",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "agere",
+        "uebersetzung": "tun; handeln; (m. Adv. und cum) umgehen (mit jmdm.)",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "neque... neque",
+        "uebersetzung": "weder... noch",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "asper",
+        "uebersetzung": "hart; grob, beleidigend",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "dūrus",
+        "uebersetzung": "hart; hartherzig",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "etsi",
+        "uebersetzung": "auch wenn, obwohl",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "saepe",
+        "uebersetzung": "oft",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "vita",
+        "uebersetzung": "das Leben",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "vitam agere",
+        "uebersetzung": "ein Leben führen/haben",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "miser",
+        "uebersetzung": "elend, unglücklich",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "ā/ab",
+        "uebersetzung": "von (... her), von ... weg; seit",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "ager",
+        "uebersetzung": "der Acker, das Feld; das Gebiet; Pl. auch das (flache) Land",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "filius",
+        "uebersetzung": "der Sohn",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "puer",
+        "uebersetzung": "der Junge",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "quod",
+        "uebersetzung": "weil; dass",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "malus",
+        "uebersetzung": "schlecht, schlimm",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "cēdere",
+        "uebersetzung": "(weg-, aus)gehen; nachgeben; überlassen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "considere",
+        "uebersetzung": "sich setzen, sich niederlassen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "gladius",
+        "uebersetzung": "das Schwert",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "sinister",
+        "uebersetzung": "links; Subst. f: die linke Hand/Seite",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "vir",
+        "uebersetzung": "der Mann",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "adversārius",
+        "uebersetzung": "der Gegner; der Feind",
+        "genus": "m",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "dexter",
+        "uebersetzung": "rechts; Subst. f: die rechte Hand/Seite",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "pūgna",
+        "uebersetzung": "der Kampf",
+        "genus": "f",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "mors",
+        "uebersetzung": "der Tod",
+        "genus": "f",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "horrēre",
+        "uebersetzung": "erschrecken (vor); rùngschaudern",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "victor",
+        "uebersetzung": "der Sieger",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "pōnere",
+        "uebersetzung": "(auf-, hin-, ab)stellen; setzen; legen",
+        "genus": "",
+        "status": "gar nicht"
+    }
+]

@@ -1,0 +1,200 @@
+[
+    {
+        "wort": "dēsinere",
+        "uebersetzung": "aufhören",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "ora",
+        "uebersetzung": "die Küste",
+        "genus": "f",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "quamquam",
+        "uebersetzung": "obwohl, obgleich",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "cēteri",
+        "uebersetzung": "die Übrigen",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "servare",
+        "uebersetzung": "retten, bewahren",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "sors",
+        "uebersetzung": "das Schicksal; das Los",
+        "genus": "f",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "soror",
+        "uebersetzung": "die Schwester",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "frāter",
+        "uebersetzung": "der Bruder",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "ignorāre",
+        "uebersetzung": "nicht wissen, nicht kennen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "unda",
+        "uebersetzung": "die Welle",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "salūs",
+        "uebersetzung": "die Rettung; das Wohl, die Gesundheit; der Gruß",
+        "genus": "f",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "dēspērāre",
+        "uebersetzung": "verzweifeln, die Hoffnung aufgeben",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "profecto",
+        "uebersetzung": "tatsächlich; auf alle Fälle",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "negare",
+        "uebersetzung": "leugnen; ablehnen, Nein sagen; sagen, dass nicht",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "mittere",
+        "uebersetzung": "schicken; werfen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "enim",
+        "uebersetzung": "denn, nämlich",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "trahere",
+        "uebersetzung": "ziehen; schleppen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "dūcere",
+        "uebersetzung": "führen; ziehen; (m. doppeltem Akk.) halten für",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "hospitium",
+        "uebersetzung": "die Gastfreundschaft; die gastliche Aufnahme; die Unterkunft",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "praebere",
+        "uebersetzung": "(dar)reichen, geben; bieten; zeigen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 3
+    },
+    {
+        "wort": "apud",
+        "uebersetzung": "bei; in der Nähe von",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "hospes",
+        "uebersetzung": "der Gast; der Gastgeber",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "interrogāre",
+        "uebersetzung": "(be)fragen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "postrēmō",
+        "uebersetzung": "schließlich, zuletzt",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "pretium",
+        "uebersetzung": "der Preis",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "proinde",
+        "uebersetzung": "also; daher",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "gratia",
+        "uebersetzung": "der Dank; die Beliebtheit; die Gunst",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "gratias agere",
+        "uebersetzung": "danken, Dank sagen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "habere",
+        "uebersetzung": "haben, halten",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "gratiam habere",
+        "uebersetzung": "Dank wissen, dankbar sein",
+        "genus": "",
+        "status": "gar nicht"
+    }
+]

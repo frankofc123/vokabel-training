@@ -1,0 +1,221 @@
+[
+    {
+        "wort": "homo",
+        "uebersetzung": "der Mensch; der Mann; Pl. auch: die Leute",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1,
+        "origin_file": "Latein Lexikon 4"
+    },
+    {
+        "wort": "sedēre",
+        "uebersetzung": "(da)sitzen",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 4",
+        "falsch": 3
+    },
+    {
+        "wort": "diū",
+        "uebersetzung": "lange",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "spectaculum",
+        "uebersetzung": "das Schauspiel; die Veranstaltung; die Vorführung",
+        "genus": "n",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 4",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "consul",
+        "uebersetzung": "der Konsul (höchster röm. Beamter)",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "avus",
+        "uebersetzung": "der Großvater",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 4",
+        "richtig": 1
+    },
+    {
+        "wort": "modo",
+        "uebersetzung": "gerade (eben); nur; (ein)mal",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "autem",
+        "uebersetzung": "aber, (je)doch",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "vidēre",
+        "uebersetzung": "sehen",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 4",
+        "falsch": 1
+    },
+    {
+        "wort": "imperator",
+        "uebersetzung": "der Kaiser; der Feldherr",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "avē!",
+        "uebersetzung": "sei gegrüßt!",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 4",
+        "richtig": 1
+    },
+    {
+        "wort": "populus",
+        "uebersetzung": "das Volk; das Publikum",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 4",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "verbum",
+        "uebersetzung": "das Wort",
+        "genus": "n",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 4",
+        "richtig": 1
+    },
+    {
+        "wort": "simulacrum",
+        "uebersetzung": "das Bild",
+        "genus": "n",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 2,
+        "origin_file": "Latein Lexikon 4"
+    },
+    {
+        "wort": "deus",
+        "uebersetzung": "der Gott",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 4",
+        "richtig": 1
+    },
+    {
+        "wort": "rex",
+        "uebersetzung": "der König",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 4",
+        "richtig": 1
+    },
+    {
+        "wort": "regina",
+        "uebersetzung": "die Königin",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "dea",
+        "uebersetzung": "die Göttin",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "amor",
+        "uebersetzung": "die Liebe",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 4",
+        "falsch": 2,
+        "richtig": 1
+    },
+    {
+        "wort": "spectāre",
+        "uebersetzung": "(an)schauen; betrachten",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "initium",
+        "uebersetzung": "der Anfang, der Beginn",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "signum",
+        "uebersetzung": "das Zeichen; das Merkmal",
+        "genus": "n",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 4",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "dare",
+        "uebersetzung": "(von sich) geben",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "incitāre",
+        "uebersetzung": "antreiben, anfeuern",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 4,
+        "origin_file": "Latein Lexikon 4"
+    },
+    {
+        "wort": "ārdor",
+        "uebersetzung": "das Temperament; die Begeisterung; die Hitze",
+        "genus": "m",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 4",
+        "falsch": 2
+    },
+    {
+        "wort": "clamor",
+        "uebersetzung": "der Schrei, der Ruf; das Geschrei",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 4",
+        "richtig": 1
+    },
+    {
+        "wort": "furor",
+        "uebersetzung": "das Toben; der Wahnsinn; die Raserei",
+        "genus": "m",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 4",
+        "falsch": 3
+    },
+    {
+        "wort": "neque",
+        "uebersetzung": "und nicht; auch nicht",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 4",
+        "falsch": 1
+    }
+]

@@ -1,0 +1,200 @@
+[
+    {
+        "wort": "vester",
+        "uebersetzung": "euer",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "noster",
+        "uebersetzung": "unser",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "gravis",
+        "uebersetzung": "schwer; wichtig; ernst",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "tuus",
+        "uebersetzung": "dein",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "opiniō",
+        "uebersetzung": "die Meinung, die Ansicht",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "sē",
+        "uebersetzung": "sich (Akk.)",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "sibi",
+        "uebersetzung": "sich (Dat.)",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "sēcum",
+        "uebersetzung": "mit sich, bei sich",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "ācer",
+        "uebersetzung": "heftig; hart; scharf",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "facilis",
+        "uebersetzung": "leicht; umgänglich",
+        "genus": "",
+        "status": "nochmal üben"
+    },
+    {
+        "wort": "arcessere",
+        "uebersetzung": "herbeirufen, holen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "brevis",
+        "uebersetzung": "kurz",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "vix",
+        "uebersetzung": "kaum; mit Mühe",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "fēlīx",
+        "uebersetzung": "glücklich; vom Glück begünstigt",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "suus",
+        "uebersetzung": "sein; ihr (reflexiv)",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "pro",
+        "uebersetzung": "vor; für; anstelle (von)",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "certus",
+        "uebersetzung": "sicher, gewiss; bestimmt; zuverlässig",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "pro certō habēre",
+        "uebersetzung": "sich sicher sein",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    },
+    {
+        "wort": "ambō",
+        "uebersetzung": "beide",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "meus",
+        "uebersetzung": "mein",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "grandis",
+        "uebersetzung": "groß; bedeutend, großartig",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "praetereā",
+        "uebersetzung": "außerdem",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "clārus",
+        "uebersetzung": "hell, klar; berühmt",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "omnis",
+        "uebersetzung": "jeder; ganz; Pl. alle",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "umerus",
+        "uebersetzung": "die Schulter; der Oberarm",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "invenīre",
+        "uebersetzung": "(auf)finden; erfinden, entdecken",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "aureus",
+        "uebersetzung": "golden, aus Gold",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "dolus",
+        "uebersetzung": "die List",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "simulāre",
+        "uebersetzung": "vortäuschen; so tun als ob",
+        "genus": "",
+        "status": "sehr gut"
+    }
+]

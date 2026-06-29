@@ -1,0 +1,225 @@
+[
+    {
+        "wort": "tandem",
+        "uebersetzung": "endlich, schließlich",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 2",
+        "richtig": 1
+    },
+    {
+        "wort": "sed",
+        "uebersetzung": "aber, (je)doch; sondern",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 2",
+        "richtig": 1
+    },
+    {
+        "wort": "apparēre",
+        "uebersetzung": "erscheinen, sich zeigen; offensichtlich sein",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1,
+        "origin_file": "Latein Lexikon 2"
+    },
+    {
+        "wort": "familia",
+        "uebersetzung": "die Familie",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "sōlum",
+        "uebersetzung": "nur",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "matrona",
+        "uebersetzung": "die (verheiratete) Frau",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "item",
+        "uebersetzung": "ebenfalls",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 2",
+        "richtig": 1
+    },
+    {
+        "wort": "servus",
+        "uebersetzung": "der Sklave; der Diener",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 2",
+        "richtig": 1
+    },
+    {
+        "wort": "serva",
+        "uebersetzung": "die Sklavin; die Dienerin",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "ibi",
+        "uebersetzung": "dort, da",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "ridēre",
+        "uebersetzung": "lachen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 2",
+        "falsch": 2,
+        "richtig": 1
+    },
+    {
+        "wort": "cito",
+        "uebersetzung": "schnell",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 5,
+        "origin_file": "Latein Lexikon 2"
+    },
+    {
+        "wort": "appropinquāre",
+        "uebersetzung": "sich nähern, näher kommen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 2",
+        "richtig": 1
+    },
+    {
+        "wort": "iam",
+        "uebersetzung": "schon, bereits; nunmehr",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "procul",
+        "uebersetzung": "von Weitem; in der Ferne, weit weg",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 2",
+        "richtig": 1
+    },
+    {
+        "wort": "salūtāre",
+        "uebersetzung": "(be)grüßen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 2",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "salvē! / salvēte!",
+        "uebersetzung": "sei/seid gegrüßt!, hallo!",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "tum",
+        "uebersetzung": "da; dann, darauf; damals",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "amicus",
+        "uebersetzung": "der Freund",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 2",
+        "richtig": 1
+    },
+    {
+        "wort": "cessāre",
+        "uebersetzung": "zögern; sich Zeit lassen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 2",
+        "richtig": 1
+    },
+    {
+        "wort": "timēre",
+        "uebersetzung": "(sich) fürchten, Angst haben (vor)",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "nunc",
+        "uebersetzung": "nun, jetzt",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "apportāre",
+        "uebersetzung": "herbeitragen, (mit) bringen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2,
+        "origin_file": "Latein Lexikon 2"
+    },
+    {
+        "wort": "certē",
+        "uebersetzung": "sicher, bestimmt",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "dōnum",
+        "uebersetzung": "das Geschenk",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "nam",
+        "uebersetzung": "denn",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 2",
+        "falsch": 2,
+        "richtig": 1
+    },
+    {
+        "wort": "mālum",
+        "uebersetzung": "der Apfel",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "dēlectāre",
+        "uebersetzung": "erfreuen, Freude machen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2,
+        "origin_file": "Latein Lexikon 2"
+    },
+    {
+        "wort": "equus",
+        "uebersetzung": "das Pferd",
+        "genus": "m",
+        "status": "sehr gut"
+    }
+]

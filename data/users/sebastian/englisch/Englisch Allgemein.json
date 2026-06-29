@@ -1,0 +1,34 @@
+[
+    {
+        "wort": "sun",
+        "uebersetzung": "Sonne",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 3,
+        "falsch": 1
+    },
+    {
+        "wort": "moon",
+        "uebersetzung": "Mond",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 2,
+        "falsch": 1
+    },
+    {
+        "wort": "star",
+        "uebersetzung": "Stern",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "world",
+        "uebersetzung": "Welt",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 2,
+        "falsch": 1
+    }
+]

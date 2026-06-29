@@ -1,0 +1,215 @@
+[
+    {
+        "wort": "nāvis",
+        "uebersetzung": "das Schiff",
+        "genus": "f",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 6",
+        "falsch": 2,
+        "richtig": 1
+    },
+    {
+        "wort": "laetus",
+        "uebersetzung": "froh; fröhlich",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "ad",
+        "uebersetzung": "zu; zu ... hin; an; bei",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "terra",
+        "uebersetzung": "die Erde; das Land",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "novus",
+        "uebersetzung": "neu",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "aliēnus",
+        "uebersetzung": "fremd",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "maestus",
+        "uebersetzung": "traurig",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "ventus",
+        "uebersetzung": "der Wind, der Sturm",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 6",
+        "richtig": 1
+    },
+    {
+        "wort": "secundus",
+        "uebersetzung": "der zweite, der folgende; günstig",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "nauta",
+        "uebersetzung": "der Seemann",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1,
+        "origin_file": "Latein Lexikon 6"
+    },
+    {
+        "wort": "sōlus",
+        "uebersetzung": "allein, einzig; nur",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "magnus",
+        "uebersetzung": "groß(artig); bedeutend",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "māter",
+        "uebersetzung": "die Mutter",
+        "genus": "f",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 6",
+        "richtig": 1
+    },
+    {
+        "wort": "pirāta",
+        "uebersetzung": "der Pirat, der Seeräuber",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "arma",
+        "uebersetzung": "die Waffen",
+        "genus": "n (Pl.)",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 6",
+        "richtig": 1
+    },
+    {
+        "wort": "abdūcere",
+        "uebersetzung": "wegführen; (weg)bringen; verschleppen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "fēmina",
+        "uebersetzung": "die Frau",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "défendere",
+        "uebersetzung": "verteidigen; abwehren",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "ubique",
+        "uebersetzung": "überall",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "ōrāre",
+        "uebersetzung": "(er)bitten; beten",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "bonus",
+        "uebersetzung": "gut; tüchtig",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "auxilium",
+        "uebersetzung": "die Hilfe",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "multi",
+        "uebersetzung": "viele; zahlreiche",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 6",
+        "richtig": 1
+    },
+    {
+        "wort": "multum",
+        "uebersetzung": "viel",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 6",
+        "richtig": 1
+    },
+    {
+        "wort": "pūgnäre",
+        "uebersetzung": "kämpfen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "superare",
+        "uebersetzung": "(be)siegen; übertreffen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "alius",
+        "uebersetzung": "ein anderer",
+        "genus": "",
+        "status": "nochmal üben",
+        "origin_file": "Latein Lexikon 6",
+        "falsch": 2
+    },
+    {
+        "wort": "alii... alii",
+        "uebersetzung": "die einen ... (die) andere(n)",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 2,
+        "origin_file": "Latein Lexikon 6"
+    },
+    {
+        "wort": "necare",
+        "uebersetzung": "töten",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "praecipitāre",
+        "uebersetzung": "stürzen; stoßen; (sich) hinabstürzen",
+        "genus": "",
+        "status": "sehr gut"
+    }
+]

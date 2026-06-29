@@ -1,0 +1,66 @@
+[
+    {
+        "wort": "elephantus",
+        "uebersetzung": "Elefant",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "leo",
+        "uebersetzung": "Löwe",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "camelus",
+        "uebersetzung": "Kamel",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "schola",
+        "uebersetzung": "Schule",
+        "genus": "f",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "familia",
+        "uebersetzung": "Familie",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "rosa",
+        "uebersetzung": "Rose",
+        "genus": "f",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "aqua",
+        "uebersetzung": "Wasser",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "malum",
+        "uebersetzung": "Apfel",
+        "genus": "n",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    }
+]

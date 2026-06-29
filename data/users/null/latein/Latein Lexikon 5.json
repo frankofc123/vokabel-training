@@ -1,0 +1,204 @@
+[
+    {
+        "wort": "ante",
+        "uebersetzung": "vor",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "lūdere",
+        "uebersetzung": "spielen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "semper",
+        "uebersetzung": "immer",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "pater",
+        "uebersetzung": "der Vater",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "patronus",
+        "uebersetzung": "der Anwalt, der Verteidiger; der Schirmherr",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "causa",
+        "uebersetzung": "der Grund; der Prozess, der Streitfall",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "dicere",
+        "uebersetzung": "sagen; sprechen; (m. doppeltem Akk.) nennen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "forum",
+        "uebersetzung": "das Forum; der Marktplatz",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "dum",
+        "uebersetzung": "während",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "epistula",
+        "uebersetzung": "der Brief",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "legere",
+        "uebersetzung": "lesen; sammeln; auswählen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "nox",
+        "uebersetzung": "die Nacht",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "iūdex",
+        "uebersetzung": "der Richter",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "dormire",
+        "uebersetzung": "schlafen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "invädere",
+        "uebersetzung": "eindringen, angreifen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "domina",
+        "uebersetzung": "die (Haus-)Herrin",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "sümere",
+        "uebersetzung": "nehmen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "décèdere",
+        "uebersetzung": "weggehen, gehen (aus)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "accurrere",
+        "uebersetzung": "herbeilaufen, angelaufen kommen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "dominus",
+        "uebersetzung": "der (Haus-)Herr",
+        "genus": "m",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "für",
+        "uebersetzung": "der Dieb",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "quaerere",
+        "uebersetzung": "suchen; fragen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "reus",
+        "uebersetzung": "der Angeklagte",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "si",
+        "uebersetzung": "wenn, falls",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "fuga",
+        "uebersetzung": "die Flucht",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "petere",
+        "uebersetzung": "bitten, verlangen; angreifen; aufsuchen; gehen zu/fahren nach",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1
+    },
+    {
+        "wort": "solēre",
+        "uebersetzung": "gewohnt sein, (etwas) normalerweise tun",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "ōrātor",
+        "uebersetzung": "der Redner",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "vidērī",
+        "uebersetzung": "scheinen; (als ...) gelten",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    }
+]

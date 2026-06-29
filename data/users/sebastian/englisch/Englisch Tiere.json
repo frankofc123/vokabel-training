@@ -1,0 +1,92 @@
+[
+    {
+        "wort": "dog",
+        "uebersetzung": "Hund",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0,
+        "origin_file": "Englisch Tiere"
+    },
+    {
+        "wort": "cat",
+        "uebersetzung": "Katze",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 4,
+        "falsch": 1,
+        "origin_file": "Englisch Tiere"
+    },
+    {
+        "wort": "mouse",
+        "uebersetzung": "Maus",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 5,
+        "falsch": 0,
+        "origin_file": "Englisch Tiere"
+    },
+    {
+        "wort": "horse",
+        "uebersetzung": "Pferd",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 1,
+        "falsch": 2,
+        "origin_file": "Englisch Tiere"
+    },
+    {
+        "wort": "lion",
+        "uebersetzung": "Löwe",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 4,
+        "falsch": 0,
+        "origin_file": "Englisch Tiere"
+    },
+    {
+        "wort": "tiger",
+        "uebersetzung": "Tiger",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 5,
+        "falsch": 0,
+        "origin_file": "Englisch Tiere"
+    },
+    {
+        "wort": "fish",
+        "uebersetzung": "Fisch",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 3,
+        "falsch": 0,
+        "origin_file": "Englisch Tiere"
+    },
+    {
+        "wort": "bird",
+        "uebersetzung": "Vogel",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 2,
+        "falsch": 2,
+        "origin_file": "Englisch Tiere"
+    },
+    {
+        "wort": "elephant",
+        "uebersetzung": "Elefant",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 4,
+        "falsch": 0,
+        "origin_file": "Englisch Tiere"
+    },
+    {
+        "wort": "monkey",
+        "uebersetzung": "Affe",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 3,
+        "falsch": 1,
+        "origin_file": "Englisch Tiere"
+    }
+]

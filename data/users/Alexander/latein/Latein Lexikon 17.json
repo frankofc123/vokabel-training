@@ -1,0 +1,183 @@
+[
+    {
+        "wort": "quī, quae, quod",
+        "uebersetzung": "der, die, das; wer, was",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "cupere",
+        "uebersetzung": "wünschen, begehren, verlangen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "perturbāre",
+        "uebersetzung": "verwirren; beunruhigen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "tamen",
+        "uebersetzung": "dennoch, trotzdem",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "hic, haec, hoc",
+        "uebersetzung": "dieser, diese, dieses",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "custōs",
+        "uebersetzung": "der/die Wächter(in), die Wache",
+        "genus": "m/f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "grātus",
+        "uebersetzung": "dankbar; willkommen; beliebt",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "prohibēre",
+        "uebersetzung": "fernhalten; hindern, abhalten",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 5,
+        "origin_file": "Latein Lexikon 17"
+    },
+    {
+        "wort": "īra",
+        "uebersetzung": "der Zorn, die Wut",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "capere",
+        "uebersetzung": "(ein)nehmen, erobern; (er)fassen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "medius",
+        "uebersetzung": "der mittlere; in der Mitte (von)",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "dōnāre",
+        "uebersetzung": "(be)schenken",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "ille, illa, illud",
+        "uebersetzung": "jener, jene, jenes (berühmte)",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "fōrma",
+        "uebersetzung": "die Form, die Gestalt; die Schönheit",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "vindicāre",
+        "uebersetzung": "beanspruchen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "fīnis",
+        "uebersetzung": "das Ende; die Grenze; der Zweck; Pl. auch das Gebiet",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "facere",
+        "uebersetzung": "machen; (m. doppeltem Akk.) machen zu",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "dēligere",
+        "uebersetzung": "(aus)wählen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "is, ea, id",
+        "uebersetzung": "der(jenige), die(jenige), das(jenige)",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "ea, quae",
+        "uebersetzung": "(das,) was",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "ipse, ipsa, ipsum",
+        "uebersetzung": "selbst, persönlich; gerade",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "iūdicāre",
+        "uebersetzung": "(be)urteilen; richten",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "conciliāre",
+        "uebersetzung": "gewinnen; vermitteln",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "studēre",
+        "uebersetzung": "sich bemühen (um), wollen; sich beschäftigen (mit), studieren",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "rēgnum",
+        "uebersetzung": "das (König-)Reich; die Königsherrschaft",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "parum",
+        "uebersetzung": "(zu) wenig, nicht besonders viel",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "neglegere",
+        "uebersetzung": "nicht (be)achten, vernachlässigen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 17",
+        "richtig": 1
+    },
+    {
+        "wort": "dubitāre",
+        "uebersetzung": "zögern; zweifeln",
+        "genus": "",
+        "status": "sehr gut"
+    }
+]

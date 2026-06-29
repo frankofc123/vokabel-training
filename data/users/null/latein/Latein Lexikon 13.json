@@ -1,0 +1,192 @@
+[
+    {
+        "wort": "cura",
+        "uebersetzung": "die Sorge; die Sorgfalt",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "sollicitāre",
+        "uebersetzung": "beunruhigen; aufwiegeln",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "tam",
+        "uebersetzung": "so",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "cognoscere",
+        "uebersetzung": "erfahren; erkennen; kennenlernen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "occasiō",
+        "uebersetzung": "die Gelegenheit",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "scribere",
+        "uebersetzung": "(auf)schreiben",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "ūnā",
+        "uebersetzung": "zusammen; gemeinsam",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "quarē?",
+        "uebersetzung": "weshalb?, wodurch?",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "nōmen",
+        "uebersetzung": "der Name",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "nōs / nōbīs / nōs",
+        "uebersetzung": "wir / uns / uns",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "mare",
+        "uebersetzung": "das Meer",
+        "genus": "n",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "altus",
+        "uebersetzung": "hoch; tief",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "vīs",
+        "uebersetzung": "die Gewalt; die Kraft; die Menge; Pl.: auch Streitkräfte",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "opprimere",
+        "uebersetzung": "überfallen, überwältigen, unterdrücken",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "aut",
+        "uebersetzung": "oder",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "vendere",
+        "uebersetzung": "verkaufen",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "numquam",
+        "uebersetzung": "niemals",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "duo",
+        "uebersetzung": "zwei",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "situs",
+        "uebersetzung": "gelegen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "servire",
+        "uebersetzung": "Sklave sein, dienen",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "sustinere",
+        "uebersetzung": "aushalten, ertragen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "cīvis",
+        "uebersetzung": "der/die Bürger(in), der/die Mitbürger(in)",
+        "genus": "m/f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "contrā",
+        "uebersetzung": "gegen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "iūs",
+        "uebersetzung": "das Recht",
+        "genus": "n",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "vōs / vōbīs / vōs",
+        "uebersetzung": "ihr / euch / euch",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 1
+    },
+    {
+        "wort": "redūcere",
+        "uebersetzung": "zurückführen; zurückbringen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "patria",
+        "uebersetzung": "das Vaterland, die Heimat",
+        "genus": "f",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "valē! / valēte!",
+        "uebersetzung": "leb wohl! / lebt wohl!",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 2
+    }
+]

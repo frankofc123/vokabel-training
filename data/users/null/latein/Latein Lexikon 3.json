@@ -1,0 +1,182 @@
+[
+    {
+        "wort": "intrare",
+        "uebersetzung": "eintreten; betreten",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "statim",
+        "uebersetzung": "sofort, auf der Stelle",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "rogare",
+        "uebersetzung": "fragen; bitten",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "unde?",
+        "uebersetzung": "woher?",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "respondēre",
+        "uebersetzung": "antworten, entgegnen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "nūntius",
+        "uebersetzung": "der Bote; die Botschaft",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "dēbēre",
+        "uebersetzung": "(m. Inf.) müssen; verdanken; schulden",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "ego / mihi / mē",
+        "uebersetzung": "ich / mir / mich",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "tu / tibi / tē",
+        "uebersetzung": "du / dir / dich",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "iubēre",
+        "uebersetzung": "(jmdm.) befehlen, (jmdn.) beauftragen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "in (m. Akk.)",
+        "uebersetzung": "in, an, auf, nach; gegen(über)",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "insula",
+        "uebersetzung": "die Insel; der Wohnblock",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "nāvīgāre",
+        "uebersetzung": "segeln; mit dem Schiff fahren",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "audire",
+        "uebersetzung": "(an-, er-, zu) hören",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "provincia",
+        "uebersetzung": "die Provinz",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "administrāre",
+        "uebersetzung": "verwalten",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "scire",
+        "uebersetzung": "wissen, kennen; können",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "licēre / licet",
+        "uebersetzung": "es ist möglich; es ist erlaubt, (jmd.) darf",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "periculum",
+        "uebersetzung": "die Gefahr",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "amare",
+        "uebersetzung": "lieben",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "nihil",
+        "uebersetzung": "nichts",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "vocāre",
+        "uebersetzung": "rufen; nennen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "hūc",
+        "uebersetzung": "hierher",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "pārēre",
+        "uebersetzung": "gehorchen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "parare",
+        "uebersetzung": "(vor-, zu) bereiten; (m. Inf.) vorhaben",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "hic",
+        "uebersetzung": "hier",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "lacrima",
+        "uebersetzung": "die Träne",
+        "genus": "f",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "tenere",
+        "uebersetzung": "(zurück-, fest)halten",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    }
+]

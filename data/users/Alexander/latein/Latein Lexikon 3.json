@@ -1,0 +1,220 @@
+[
+    {
+        "wort": "intrare",
+        "uebersetzung": "eintreten; betreten",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "statim",
+        "uebersetzung": "sofort, auf der Stelle",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "rogare",
+        "uebersetzung": "fragen; bitten",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "unde?",
+        "uebersetzung": "woher?",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "respondēre",
+        "uebersetzung": "antworten, entgegnen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "nūntius",
+        "uebersetzung": "der Bote; die Botschaft",
+        "genus": "m",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "dēbēre",
+        "uebersetzung": "(m. Inf.) müssen; verdanken; schulden",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "ego / mihi / mē",
+        "uebersetzung": "ich / mir / mich",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "tu / tibi / tē",
+        "uebersetzung": "du / dir / dich",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "iubēre",
+        "uebersetzung": "(jmdm.) befehlen, (jmdn.) beauftragen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "in (m. Akk.)",
+        "uebersetzung": "in, an, auf, nach; gegen(über)",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "insula",
+        "uebersetzung": "die Insel; der Wohnblock",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "nāvīgāre",
+        "uebersetzung": "segeln; mit dem Schiff fahren",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "audire",
+        "uebersetzung": "(an-, er-, zu) hören",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "provincia",
+        "uebersetzung": "die Provinz",
+        "genus": "f",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "administrāre",
+        "uebersetzung": "verwalten",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "falsch": 1,
+        "richtig": 1
+    },
+    {
+        "wort": "scire",
+        "uebersetzung": "wissen, kennen; können",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "licēre / licet",
+        "uebersetzung": "es ist möglich; es ist erlaubt, (jmd.) darf",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "periculum",
+        "uebersetzung": "die Gefahr",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "amare",
+        "uebersetzung": "lieben",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "nihil",
+        "uebersetzung": "nichts",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "vocāre",
+        "uebersetzung": "rufen; nennen",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "hūc",
+        "uebersetzung": "hierher",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "pārēre",
+        "uebersetzung": "gehorchen",
+        "genus": "",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "falsch": 4,
+        "richtig": 1
+    },
+    {
+        "wort": "parare",
+        "uebersetzung": "(vor-, zu) bereiten; (m. Inf.) vorhaben",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "hic",
+        "uebersetzung": "hier",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "lacrima",
+        "uebersetzung": "die Träne",
+        "genus": "f",
+        "status": "sehr gut",
+        "origin_file": "Latein Lexikon 3",
+        "richtig": 1
+    },
+    {
+        "wort": "tenere",
+        "uebersetzung": "(zurück-, fest)halten",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    }
+]

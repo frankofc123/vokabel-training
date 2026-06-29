@@ -1,0 +1,184 @@
+[
+    {
+        "wort": "homo",
+        "uebersetzung": "der Mensch; der Mann; Pl. auch: die Leute",
+        "genus": "m",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "sedēre",
+        "uebersetzung": "(da)sitzen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "diū",
+        "uebersetzung": "lange",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "spectaculum",
+        "uebersetzung": "das Schauspiel; die Veranstaltung; die Vorführung",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "consul",
+        "uebersetzung": "der Konsul (höchster röm. Beamter)",
+        "genus": "m",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "avus",
+        "uebersetzung": "der Großvater",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "modo",
+        "uebersetzung": "gerade (eben); nur; (ein)mal",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "autem",
+        "uebersetzung": "aber, (je)doch",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "vidēre",
+        "uebersetzung": "sehen",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "imperator",
+        "uebersetzung": "der Kaiser; der Feldherr",
+        "genus": "m",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "avē!",
+        "uebersetzung": "sei gegrüßt!",
+        "genus": "",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "populus",
+        "uebersetzung": "das Volk; das Publikum",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "verbum",
+        "uebersetzung": "das Wort",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "simulacrum",
+        "uebersetzung": "das Bild",
+        "genus": "n",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "deus",
+        "uebersetzung": "der Gott",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "rex",
+        "uebersetzung": "der König",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "regina",
+        "uebersetzung": "die Königin",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "dea",
+        "uebersetzung": "die Göttin",
+        "genus": "f",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "amor",
+        "uebersetzung": "die Liebe",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "spectāre",
+        "uebersetzung": "(an)schauen; betrachten",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "initium",
+        "uebersetzung": "der Anfang, der Beginn",
+        "genus": "n",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "signum",
+        "uebersetzung": "das Zeichen; das Merkmal",
+        "genus": "n",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "dare",
+        "uebersetzung": "(von sich) geben",
+        "genus": "",
+        "status": "sehr gut"
+    },
+    {
+        "wort": "incitāre",
+        "uebersetzung": "antreiben, anfeuern",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 0,
+        "falsch": 1
+    },
+    {
+        "wort": "ārdor",
+        "uebersetzung": "das Temperament; die Begeisterung; die Hitze",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "clamor",
+        "uebersetzung": "der Schrei, der Ruf; das Geschrei",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "furor",
+        "uebersetzung": "das Toben; der Wahnsinn; die Raserei",
+        "genus": "m",
+        "status": "gar nicht"
+    },
+    {
+        "wort": "neque",
+        "uebersetzung": "und nicht; auch nicht",
+        "genus": "",
+        "status": "gar nicht"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "wort": "apple",
+        "uebersetzung": "Apfel",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "banana",
+        "uebersetzung": "Banane",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 1,
+        "falsch": 0
+    },
+    {
+        "wort": "milk",
+        "uebersetzung": "Milch",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "water",
+        "uebersetzung": "Wasser",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 5,
+        "falsch": 0
+    },
+    {
+        "wort": "bread",
+        "uebersetzung": "Brot",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 2,
+        "falsch": 0
+    },
+    {
+        "wort": "egg",
+        "uebersetzung": "Ei",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 2,
+        "falsch": 1
+    },
+    {
+        "wort": "cheese",
+        "uebersetzung": "Käse",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 1,
+        "falsch": 1
+    },
+    {
+        "wort": "pizza",
+        "uebersetzung": "Pizza",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 1,
+        "falsch": 1
+    },
+    {
+        "wort": "ice cream",
+        "uebersetzung": "Eis",
+        "genus": "",
+        "status": "sehr gut",
+        "richtig": 3,
+        "falsch": 0
+    },
+    {
+        "wort": "juice",
+        "uebersetzung": "Saft",
+        "genus": "",
+        "status": "nochmal üben",
+        "richtig": 1,
+        "falsch": 1
+    }
+]
