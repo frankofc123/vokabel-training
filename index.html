@@ -602,15 +602,34 @@
                 document.getElementById('stat-progress-bar').style.width = `${percent}%`;
                 document.getElementById('stat-progress-bar').innerText = `${percent}%`;
             }
-        
-            // 3. 🌿 LORBEERKRANZ GENERIEREN 🌿
+
+            // 3. 🌿 LORBEERKRANZ (GOLD & GRÜN) GENERIEREN 🌿
             if(document.getElementById('wreath-output')) {
                 const wreathOutput = document.getElementById('wreath-output');
                 if(document.getElementById('wreath-percentage')) {
                     document.getElementById('wreath-percentage').innerText = `Corona Victoriae (${percent}%)`;
                 }
-                let leafCount = Math.floor(parseFloat(percent) / 5);
-                wreathOutput.innerHTML = "🌿".repeat(leafCount) || "⚔️ Starte deine Eroberung";
+                
+                // Wir nutzen immer exakt 20 Blätter für die volle Pracht (20 * 5% = 100%)
+                const totalLeaves = 20;
+                
+                // Berechne, wie viele Blätter golden sein müssen (Abrunden des aktuellen Fortschritts)
+                let goldCount = Math.floor(parseFloat(percent) / 5);
+                
+                // Der Rest bis 20 bleibt grün
+                let greenCount = totalLeaves - goldCount;
+        
+                // Ein goldenes Lorbeerblatt via vergoldetem Emoji-Design, das grüne bleibt natur
+                let goldLeaf = `<span style="color: #FFD700; display: inline-block; text-shadow: 0 0 2px #DAA520;">🌿</span>`;
+                let greenLeaf = `<span style="color: #2ec4b6; opacity: 0.4; display: inline-block;">🌿</span>`; // Leicht transparent für edleren Kontrast
+                
+                // Alternativ: Wenn dein Browser Emojis nicht einfärben will, nutzen wir goldene Pokal/Medaillen-Blätter oder reinen Text. 
+                // Für echte Emojis nutzen wir hier den plattformübergreifenden Farb-Filter-Trick:
+                goldLeaf = `<span style="display: inline-block; filter: sepia(1) saturate(20) hue-rotate(5deg); margin: 0 2px;">🌿</span>`;
+                greenLeaf = `<span style="display: inline-block; filter: grayscale(0); margin: 0 2px;">🌿</span>`;
+        
+                // Kranz zusammensetzen und ausgeben
+                wreathOutput.innerHTML = goldLeaf.repeat(goldCount) + greenLeaf.repeat(greenCount);
             }
         
             // 4. ✨ DAS GEHEIME ORAKEL (Motivationsbox) ✨
