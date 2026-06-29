@@ -532,6 +532,7 @@
             localStorage.setItem('lessons_' + currentLanguage, JSON.stringify(data));
         }
 
+
         function calculateStatistics(data) {
             let total = 0, mastered = 0;
             let wrongData = [];
@@ -542,10 +543,14 @@
                 data[l].forEach(v => {
                     total++; 
                     
-                    // Ermittle den Status
+                    // Ermittle den Meister-Status
                     if(v.status === 'sehr gut') mastered++;
         
-                    // Extrahiere Fehler- und Erfolgszähler (unterstützt korrektur/fehler/wrong/correct)
+                    // === VOKABEL-TEXT ERMITTLEN ===
+                    // Falls deine JSON-Struktur 'word', 'voc', 'vokabel' oder ähnliches nutzt, fangen wir das hier ab
+                    let wordText = v.word || v.voc || v.vokabel || v.latein || v.englisch || "Unbekannt";
+        
+                    // Extrahiere Fehler- und Erfolgszähler (unterstützt wrong/correct sowie fehler/richtig)
                     let wrongCount = v.wrong || v.fehler || 0;
                     let correctCount = v.correct || v.richtig || 0;
                     let totalAttempts = wrongCount + correctCount;
@@ -554,19 +559,19 @@
                         let successRate = correctCount / totalAttempts;
                         let failureRate = wrongCount / totalAttempts;
         
-                        // 🏹 Angstgegner: Mindestens 2- oder 3-mal abgefragt und hohe Fehlerquote
+                        // 🏹 Angstgegner: Mindestens 2-mal abgefragt und hohe Fehlerquote (ab 50%)
                         if (totalAttempts >= 2 && failureRate >= 0.5) {
                             wrongData.push({
                                 rate: failureRate,
-                                text: `<strong class="text-danger">${v.latein || v.englisch || 'Wort'}</strong> — ${Math.round(failureRate * 100)}% Fehler <span class="badge bg-danger ms-1">${wrongCount}❌ von ${totalAttempts}</span>`
+                                text: `<strong class="text-danger">${wordText}</strong> — ${Math.round(failureRate * 100)}% Fehler <span class="badge bg-danger ms-1">${wrongCount}❌ von ${totalAttempts}</span>`
                             });
                         }
         
-                        // 🏆 Helden: Hohe Erfolgsquote
+                        // 🏆 Helden: Hohe Erfolgsquote (ab 70%)
                         if (successRate >= 0.7) {
                             heroData.push({
                                 rate: successRate,
-                                text: `<strong class="text-success">${v.latein || v.englisch || 'Wort'}</strong> — ${Math.round(successRate * 100)}% Erfolg <span class="badge bg-success ms-1">${correctCount}✅ von ${totalAttempts}</span>`
+                                text: `<strong class="text-success">${wordText}</strong> — ${Math.round(successRate * 100)}% Erfolg <span class="badge bg-success ms-1">${correctCount}✅ von ${totalAttempts}</span>`
                             });
                         }
                     }
@@ -587,14 +592,12 @@
                 document.getElementById('stat-progress-bar').innerText = `${percent}%`;
             }
         
-            // 3. 🌿 LORBEERKRANZ (Corona Victoriae) GENERIEREN 🌿
+            // 3. 🌿 LORBEERKRANZ GENERIEREN 🌿
             if(document.getElementById('wreath-output')) {
                 const wreathOutput = document.getElementById('wreath-output');
                 if(document.getElementById('wreath-percentage')) {
                     document.getElementById('wreath-percentage').innerText = `Corona Victoriae (${percent}%)`;
                 }
-                
-                // Alle 5% Baufortschritt ein Lorbeerblatt (max. 20 Blätter)
                 let leafCount = Math.floor(parseFloat(percent) / 5);
                 wreathOutput.innerHTML = "🌿".repeat(leafCount) || "⚔️ Starte deine Eroberung";
             }
@@ -619,26 +622,24 @@
             // 5. 🏹 LISTE DER ANGSTGEGNER RENDERN
             if(document.getElementById('angstgegner-list')) {
                 const angstList = document.getElementById('angstgegner-list');
-                // Sortieren: Schlimmste Fehlerquote zuerst
                 wrongData.sort((a, b) => b.rate - a.rate);
                 
                 angstList.innerHTML = wrongData.slice(0, 5).map(item => 
-                    `<div class="list-group-item list-group-item-danger d-flex justify-content-between align-items-center small p-2" style="background-color: rgba(220, 53, 69, 0.1); border-left: 4px solid #dc3545;">${item.text}</div>`
+                    `<div class="list-group-item list-group-item-danger d-flex justify-content-between align-items-center small p-2 mb-1" style="background-color: rgba(220, 53, 69, 0.1); border-left: 4px solid #dc3545;">${item.text}</div>`
                 ).join('') || '<div class="text-muted small p-2">Noch keine Angstgegner identifiziert. Weiter so!</div>';
             }
         
             // 6. 🏆 LISTE DER HELDEN RENDERN
             if(document.getElementById('helden-list')) {
                 const heldenList = document.getElementById('helden-list');
-                // Sortieren: Beste Erfolgsquote zuerst
                 heroData.sort((a, b) => b.rate - a.rate);
                 
                 heldenList.innerHTML = heroData.slice(0, 5).map(item => 
-                    `<div class="list-group-item list-group-item-success d-flex justify-content-between align-items-center small p-2" style="background-color: rgba(25, 135, 84, 0.1); border-left: 4px solid #198754;">${item.text}</div>`
+                    `<div class="list-group-item list-group-item-success d-flex justify-content-between align-items-center small p-2 mb-1" style="background-color: rgba(25, 135, 84, 0.1); border-left: 4px solid #198754;">${item.text}</div>`
                 ).join('') || '<div class="text-muted small p-2">Kämpfe mutig weiter, um dir Helden zu verdienen!</div>';
             }
         }
-
+        
         function renderLibrary(data) {
             const container = document.getElementById('library-container');
             if(!container) return; container.innerHTML = '';
