@@ -288,7 +288,7 @@
                 }
 
                 // WICHTIG: Hash-Berechnung nutzt den exakten Key aus der JSON ("Alexander" oder "alexander")
-                const inputHash = await sha256(matchedKey.toLowerCase() + ":" + pass);
+                const inputHash = await sha256(pass);
 
                 if (authDb[matchedKey] === inputHash) {
                     currentUser = matchedKey; // Behält die originale Schreibweise
