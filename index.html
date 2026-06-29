@@ -543,16 +543,15 @@
                 data[l].forEach(v => {
                     total++; 
                     
-                    // Ermittle den Meister-Status
+                    // Ermittle den Meister-Status (aus deinem JSON)
                     if(v.status === 'sehr gut') mastered++;
         
-                    // === VOKABEL-TEXT ERMITTLEN ===
-                    // Falls deine JSON-Struktur 'word', 'voc', 'vokabel' oder ähnliches nutzt, fangen wir das hier ab
-                    let wordText = v.word || v.voc || v.vokabel || v.latein || v.englisch || "Unbekannt";
+                    // Holt das Wort exakt aus dem Feld "wort"
+                    let wordText = v.wort || "Unbekannt";
         
-                    // Extrahiere Fehler- und Erfolgszähler (unterstützt wrong/correct sowie fehler/richtig)
-                    let wrongCount = v.wrong || v.fehler || 0;
-                    let correctCount = v.correct || v.richtig || 0;
+                    // Holt die Zähler exakt aus "falsch" und "richtig"
+                    let wrongCount = v.falsch || 0;
+                    let correctCount = v.richtig || 0;
                     let totalAttempts = wrongCount + correctCount;
         
                     if (totalAttempts > 0) {
