@@ -12,8 +12,8 @@
             }
         }, true);
     </script>
-    <link rel="manifest" href="/vokabel-training/manifest.json">
-    <link rel="mask-icon" href="/vokabel-training/icons/monochrome.svg" color="#212529">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="icons/monochrome.svg" color="#212529">
     <style>
         /* Grundlayout */
         body { background-color: #f8f9fa; }
@@ -86,7 +86,6 @@
                 border: 1px solid rgba(0, 0, 0, 0.03) !important;
             }
         }
-
     </style>
 </head>
 <body>
@@ -100,7 +99,6 @@
     </div>
 
     <div id="app-zone" class="container-fluid d-none">
-        
         <div class="mobile-header-settings row g-0 w-100 align-items-center">
             <div class="col-5">
                 <select id="lang-select-mobile" class="form-select form-select-sm bg-dark text-white border-secondary" onchange="changeLanguageMobile()">
@@ -145,7 +143,6 @@
             </nav>
 
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-4">
-                
                 <div id="page-lernen" class="page-content">
                     <h2 class="h4 mb-3 d-none d-md-block">🎯 Vokabeln lernen</h2>
                     <div id="setup-test-zone" class="card p-3 p-md-4 shadow-sm border-0 mb-4">
@@ -210,9 +207,9 @@
             </main>
         </div>
     </div>
+
     <script>
         // === KONFIGURATION FÜR GITHUB ===
-        // Ersetze 'frankofc123' durch deinen echten GitHub-Namen, falls er anders heißt!
         const GITHUB_USER = 'frankofc123';
         const REPO_NAME = 'vokabel-training';
         const BASE_URL = `https://${GITHUB_USER}.github.io/${REPO_NAME}/data`;
@@ -231,12 +228,11 @@
             return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
         }
 
-        // === START-WÄCHTER (Bus-Rettung!) ===
+        // === START-WÄCHTER ===
         window.addEventListener('DOMContentLoaded', () => {
             const savedUser = localStorage.getItem('last_user');
             const loginStatus = localStorage.getItem('is_logged_in'); 
             
-            // Wenn man im Bus die App öffnet und eingeloggt war -> Sofort rein!
             if (savedUser && loginStatus === 'true') {
                 currentUser = savedUser;
                 showApp();
@@ -250,14 +246,16 @@
 
         // === LOGIN ÜBER GITHUB JSON ===
         async function handleLoginAttempt() {
-            const user = document.getElementById('username').value.trim().toLowerCase();
+            const userInput = document.getElementById('username').value.trim();
             const pass = document.getElementById('password').value;
 
-            if (!user || !pass) return alert("Bitte Daten eingeben!");
+            if (!userInput || !pass) return alert("Bitte Daten eingeben!");
 
-            // 1. Prüfen, ob wir Offline sind und die Daten schon im iPad haben
+            const userLower = userInput.toLowerCase();
+
+            // Offline-Check
             const storedUser = localStorage.getItem('last_user');
-            if (!navigator.onLine && storedUser && storedUser === user) {
+            if (!navigator.onLine && storedUser && storedUser.toLowerCase() === userLower) {
                 currentUser = storedUser;
                 localStorage.setItem('is_logged_in', 'true');
                 showApp();
@@ -270,24 +268,35 @@
             }
 
             try {
-                // 2. Lade die anonyme Passwort-Datenbank von GitHub Pages (Sicheres HTTPS!)
                 const response = await fetch(`${BASE_URL}/users_auth.json`);
                 if (!response.ok) throw new Error("Auth-Datei nicht gefunden");
                 const authDb = await response.json();
 
-                // 3. Berechne den Hash des eingegebenen Passworts
-                const inputHash = await sha256(user + ":" + pass);
+                // Case-Insensitive Suche in der JSON-Datenbank
+                let matchedKey = null;
+                for (let key in authDb) {
+                    if (key.toLowerCase() === userLower) {
+                        matchedKey = key;
+                        break;
+                    }
+                }
 
-                // 4. Vergleichen
-                if (authDb[user] && authDb[user] === inputHash) {
-                    currentUser = user;
+                if (!matchedKey) {
+                    alert("❌ Falsche Logindaten! (Nutzer nicht gefunden)");
+                    return;
+                }
+
+                // WICHTIG: Hash-Berechnung nutzt den exakten Key aus der JSON ("Alexander" oder "alexander")
+                const inputHash = await sha256(matchedKey.toLowerCase() + ":" + pass);
+
+                if (authDb[matchedKey] === inputHash) {
+                    currentUser = matchedKey; // Behält die originale Schreibweise
                     localStorage.setItem('last_user', currentUser);
                     localStorage.setItem('is_logged_in', 'true');
                     showApp();
-                    // Lade direkt alle Lektionen des Users von GitHub ins iPad
                     await downloadFromGitHub();
                 } else {
-                    alert("❌ Falsche Logindaten!");
+                    alert("❌ Falsche Logindaten! (Passwort falsch)");
                 }
             } catch (err) {
                 alert("Fehler beim Login-Server: " + err.message);
@@ -302,25 +311,23 @@
             }
 
             try {
-                // Da wir statisches Hosting nutzen, laden wir die Lektionen flexibel.
-                // Tipp: Wir versuchen Lektion 1 bis 20 nacheinander zu laden!
                 let lessonsData = {};
+                const userFolder = currentUser.toLowerCase();
                 
                 for(let i = 1; i <= 20; i++) {
                     let lessonName = `lektion${i}`;
-                    let res = await fetch(`${BASE_URL}/users/${currentUser}/${currentLanguage.toLowerCase()}/${lessonName}.json`);
+                    let res = await fetch(`${BASE_URL}/users/${userFolder}/${currentLanguage.toLowerCase()}/${lessonName}.json`);
                     if(res.ok) {
                         lessonsData[lessonName] = await res.json();
                     }
                 }
 
-                // Wenn Lektionen gefunden wurden, im iPad sichern
                 if (Object.keys(lessonsData).length > 0) {
                     localStorage.setItem('lessons_' + currentLanguage, JSON.stringify(lessonsData));
                 }
                 buildInterface();
             } catch (e) {
-                console.log("GitHub Download beendet oder keine weiteren Lektionen.");
+                console.log("GitHub Download beendet.");
                 buildInterface();
             }
         }
@@ -329,7 +336,7 @@
             document.getElementById('auth-zone').classList.add('d-none');
             document.getElementById('app-zone').classList.remove('d-none');
             document.getElementById('user-display').innerText = currentUser.toUpperCase();
-            downloadFromGitHub(); // Versucht im Hintergrund zu aktualisieren, falls WLAN da ist
+            downloadFromGitHub();
         }
 
         function logout() {
@@ -349,7 +356,6 @@
             changeLanguage();
         }
 
-        // === HIER FOLGT DEINE EXAKTE VOKABEL-LOGIK (Unverändert!) ===
         function switchPage(pageId) {
             document.querySelectorAll('.page-content').forEach(p => p.classList.add('d-none'));
             document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
@@ -519,24 +525,7 @@
 
         function triggerSync() { alert("Synchronisiert! Auf GitHub Pages werden gelernte Fortschritte direkt auf deinem iPad gesichert."); }
 
-        // Service Worker Registrierung
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/vokabel-training/sw.js')
-                    .then(reg => console.log('Service Worker aktiv!'))
-                    .catch(err => console.error(err));
-            });
-        }
-    </script>
-    <script>
-        function changeLanguageMobile() {
-            const val = document.getElementById('lang-select-mobile').value;
-            document.getElementById('lang-select').value = val;
-            changeLanguage();
-        }
-    </script>
-    <script>
-        // Registrierung des Service Workers für echte Offline-Funktionalität
+        // Einmalige, saubere Service Worker Registrierung für GitHub Pages
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('/vokabel-training/sw.js')
