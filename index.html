@@ -311,25 +311,35 @@
                 buildInterface();
                 return;
             }
-
+        
             try {
                 let lessonsData = {};
-                const userFolder = currentUser.toLowerCase();
+                
+                // 1. BEHEBT ORDNER-PROBLEM: Nutzt "Alexander" exakt so wie im JSON hinterlegt
+                const userFolder = currentUser; 
                 
                 for(let i = 1; i <= 20; i++) {
-                    let lessonName = `lektion${i}`;
-                    let res = await fetch(`${BASE_URL}/users/${userFolder}/${currentLanguage.toLowerCase()}/${lessonName}.json`);
+                    // 2. BEHEBT DATEINAMEN-PROBLEM: Sucht nach "Latein Lexikon X.json" statt "lektionX.json"
+                    let lessonName = `Latein Lexikon ${i}`;
+                    
+                    // 3. BEHEBT PFAD-PROBLEM: "/data/" wurde vor "users" hinzugefügt, damit der GitHub-Pfad stimmt
+                    let res = await fetch(`${BASE_URL}/data/users/${userFolder}/${currentLanguage.toLowerCase()}/${lessonName}.json`);
+                    
                     if(res.ok) {
+                        // Speichert es intern ab (wir behalten "Latein Lexikon 1" als Schlüssel)
                         lessonsData[lessonName] = await res.json();
+                        console.log(`✅ Erfolgreich geladen: ${lessonName}.json`);
+                    } else {
+                        console.log(`ℹ️ Nicht gefunden (oder leer): ${lessonName}.json`);
                     }
                 }
-
+        
                 if (Object.keys(lessonsData).length > 0) {
                     localStorage.setItem('lessons_' + currentLanguage, JSON.stringify(lessonsData));
                 }
                 buildInterface();
             } catch (e) {
-                console.log("GitHub Download beendet.");
+                console.log("GitHub Download Fehler: ", e);
                 buildInterface();
             }
         }
