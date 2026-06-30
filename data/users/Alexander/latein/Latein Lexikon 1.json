@@ -44,7 +44,8 @@
         "genus": "",
         "status": "sehr gut",
         "origin_file": "Latein Lexikon 1",
-        "richtig": 1
+        "richtig": 1,
+        "falsch": 0
     },
     {
         "wort": "tacēre",
